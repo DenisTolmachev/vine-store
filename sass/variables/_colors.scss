@@ -1,0 +1,41 @@
+$opacity-dkr: 0.85;
+$opacity-dk: 0.7;
+$opacity-md: 0.5;
+$opacity-lt: 0.2;
+$opacity-ltr: 0.15;
+$transparent: rgba(255,255,255,0);
+
+// Semitransparent white
+$trBlack-dkr: rgba(0, 0, 0, $opacity-dkr);
+$trBlack-dk: rgba(0, 0, 0, $opacity-dk);
+$trBlack: rgba(0, 0, 0, $opacity-md);
+$trBlack-lt: rgba(0, 0, 0, $opacity-lt);
+$trBlack-ltr: rgba(0, 0, 0, $opacity-ltr);
+
+// Semitransparent black
+$trWhite-dkr: rgba(255, 255, 255, $opacity-dkr);
+$trWhite-dk: rgba(255, 255, 255, $opacity-dk);
+$trWhite: rgba(255, 255, 255, $opacity-md);
+$trWhite-lt: rgba(255, 255, 255, $opacity-lt);
+$trWhite-ltr: rgba(255, 255, 255, $opacity-ltr);
+
+// Brand colors
+$white: #fff;
+$black: #000;
+$hovBlue: #20A6F4;
+$white-d: #f8f8ff;
+$white-l: #ebebeb;
+
+// Background colors
+$bcBase: #666666;
+$bcGray: #cccccc;
+
+// Font colors
+$fcBlue: #143959;
+// Special colors
+$bordGray: #6e6e6e;
+$bordWite-d: #fcfcfc;
+
+// Shadow colors
+
+

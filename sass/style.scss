@@ -1,0 +1,22 @@
+// Font-face declaration
+@import "typography/fonts";
+@import "typography/typography";
+
+// Utility files (mixins, variables, sprites etc.)
+@import "mixins/__mixins";
+@import "variables/__variables";
+
+// Main layout and reusable partials
+@import "layout/__layout";
+@import "layout/partials/__partials";
+
+// scss files for separate page
+
+//@import "pages/...";
+
+// helper classes
+
+//@import "helpers/__helpers";
+
+// Breakpoints manager
+@import "media/media";

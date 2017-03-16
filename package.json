@@ -1,0 +1,23 @@
+{
+  "name": "vine-store",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-install": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisTolmachev/vine-store.git"
+  },
+  "author": "Denis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenisTolmachev/vine-store/issues"
+  },
+  "homepage": "https://github.com/DenisTolmachev/vine-store#readme",
+  "description": ""
+}
