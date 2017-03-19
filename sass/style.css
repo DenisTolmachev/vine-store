@@ -91,12 +91,13 @@ input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
-input[type="file"] > input[type="button"]::-moz-focus-inner {
-  /* */
-  border: none; }
+input[type="file"] > input[type="button"]::-moz-focus-inner,
+a, :hover, :focus {
+  text-decoration: none !important; }
 
-.container {
-  border: 1px solid darkblue; }
+button, :hover, :focus {
+  border: none;
+  outline: none; }
 
 /*!
  * Bootstrap v3.0.3 (http://getbootstrap.com)
@@ -665,7 +666,7 @@ pre code {
     width: 970px; } }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px; } }
+    width: 1200px; } }
 .row {
   margin-right: -15px;
   margin-left: -15px; }
@@ -5183,11 +5184,114 @@ th.hidden-lg, td.hidden-lg {
 
   .hidden-print, tr.hidden-print, th.hidden-print, td.hidden-print {
     display: none !important; } }
+nav ul {
+  margin-left: 16px;
+  margin-top: 11px;
+  margin-bottom: 10px; }
+  nav ul li {
+    display: inline;
+    margin-right: 26px; }
+    nav ul li a {
+      color: #cb4d0f;
+      font-family: "Open Sans Bold";
+      font-size: 18px;
+      text-transform: uppercase;
+      text-decoration: none !important; }
+      nav ul li a:hover {
+        color: #4f3715; }
+
+button {
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  border-radius: 18px;
+  /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  background-color: #cb4d0f;
+  /* layer fill content */
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans Bold";
+  text-transform: uppercase; }
+
+.register-box {
+  width: 100%;
+  display: inline-block; }
+  .register-box .cart {
+    float: left;
+    margin-top: 5px; }
+  .register-box .buttons {
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+    padding-right: 22px; }
+    .register-box .buttons button {
+      padding: 8px 36px;
+      margin-left: 12px; }
+      .register-box .buttons button:hover {
+        background-color: #fffdfd;
+        color: #cb4d0f; }
+
 .nav-field {
   background-color: rgba(255, 255, 255, 0.5); }
 
 header {
-  height: 300px;
+  height: 770px;
   background-image: url("/img/header-bg.png"); }
+
+body {
+  background-image: url("/img/beguzor32.jpg"); }
+
+nav ul {
+  margin-left: 16px;
+  margin-top: 11px;
+  margin-bottom: 10px; }
+  nav ul li {
+    display: inline;
+    margin-right: 26px; }
+    nav ul li a {
+      color: #cb4d0f;
+      font-family: "Open Sans Bold";
+      font-size: 18px;
+      text-transform: uppercase;
+      text-decoration: none !important; }
+      nav ul li a:hover {
+        color: #4f3715; }
+
+button {
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  border-radius: 18px;
+  /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  background-color: #cb4d0f;
+  /* layer fill content */
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans Bold";
+  text-transform: uppercase; }
+
+.register-box {
+  width: 100%;
+  display: inline-block; }
+  .register-box .cart {
+    float: left;
+    margin-top: 5px; }
+  .register-box .buttons {
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+    padding-right: 22px; }
+    .register-box .buttons button {
+      padding: 8px 36px;
+      margin-left: 12px; }
+      .register-box .buttons button:hover {
+        background-color: #fffdfd;
+        color: #cb4d0f; }
 
 /*# sourceMappingURL=style.css.map */

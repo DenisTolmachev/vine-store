@@ -120,14 +120,15 @@ input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
-input[type="file"] > input[type="button"]::-moz-focus-inner {
-  /* */
-  border: none;
+input[type="file"] > input[type="button"]::-moz-focus-inner,
+a, :hover, :focus {
+  text-decoration: none !important;
 }
 
-/* line 83, ../sass/layout/_base.scss */
-.container {
-  border: 1px solid darkblue;
+/* line 87, ../sass/layout/_base.scss */
+button, :hover, :focus {
+  border: none;
+  outline: none;
 }
 
 /*!
@@ -990,7 +991,7 @@ pre code {
 @media (min-width: 1200px) {
   /* line 7, ../sass/layout/_bootstrap.min.scss */
   .container {
-    width: 1170px;
+    width: 1200px;
   }
 }
 /* line 7, ../sass/layout/_bootstrap.min.scss */
@@ -7954,6 +7955,76 @@ th.hidden-lg, td.hidden-lg {
     display: none !important;
   }
 }
+/* line 2, ../sass/layout/partials/_nav-menu.scss */
+nav ul {
+  margin-left: 16px;
+  margin-top: 11px;
+  margin-bottom: 10px;
+}
+/* line 6, ../sass/layout/partials/_nav-menu.scss */
+nav ul li {
+  display: inline;
+  margin-right: 26px;
+}
+/* line 9, ../sass/layout/partials/_nav-menu.scss */
+nav ul li a {
+  color: #cb4d0f;
+  font-family: "Open Sans Bold";
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+/* line 15, ../sass/layout/partials/_nav-menu.scss */
+nav ul li a:hover {
+  color: #4f3715;
+}
+
+/* line 1, ../sass/layout/partials/_buttons.scss */
+button {
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  border-radius: 18px;
+  /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  background-color: #cb4d0f;
+  /* layer fill content */
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans Bold";
+  text-transform: uppercase;
+}
+
+/* line 1, ../sass/layout/partials/_register-box.scss */
+.register-box {
+  width: 100%;
+  display: inline-block;
+}
+/* line 5, ../sass/layout/partials/_register-box.scss */
+.register-box .cart {
+  float: left;
+  margin-top: 5px;
+}
+/* line 9, ../sass/layout/partials/_register-box.scss */
+.register-box .buttons {
+  display: inline-block;
+  float: right;
+  padding-top: 5px;
+  padding-right: 22px;
+}
+/* line 14, ../sass/layout/partials/_register-box.scss */
+.register-box .buttons button {
+  padding: 8px 36px;
+  margin-left: 12px;
+}
+/* line 17, ../sass/layout/partials/_register-box.scss */
+.register-box .buttons button:hover {
+  background-color: #fffdfd;
+  color: #cb4d0f;
+}
+
 /* line 1, ../sass/layout/_nav-field.scss */
 .nav-field {
   background-color: rgba(255, 255, 255, 0.5);
@@ -7961,6 +8032,11 @@ th.hidden-lg, td.hidden-lg {
 
 /* line 1, ../sass/layout/_header.scss */
 header {
-  height: 300px;
+  height: 770px;
   background-image: url("/img/header-bg.png");
+}
+
+/* line 1, ../sass/layout/_body.scss */
+body {
+  background-image: url("/img/beguzor32.jpg");
 }

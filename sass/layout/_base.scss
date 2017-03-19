@@ -77,9 +77,18 @@ input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
-input[type="file"] > input[type="button"]::-moz-focus-inner {/* */
-  border: none;}
+input[type="file"] > input[type="button"]::-moz-focus-inner,
 
-.container {
-  border: 1px solid darkblue;
+
+a, :hover, :focus {
+  text-decoration: none !important;
 }
+
+button, :hover, :focus {
+  border: none;
+  outline: none;
+}
+
+//.container {
+//  border: 1px solid darkblue;
+//}

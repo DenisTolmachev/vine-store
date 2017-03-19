@@ -1,0 +1,21 @@
+nav{
+  ul {
+    margin-left: 16px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    li {
+      display: inline;
+      margin-right: 26px;
+      a {
+        color: $orange;
+        font-family: $OSBolb;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-decoration: none !important;
+        &:hover {
+          color: $orange-dark;
+        }
+      }
+    }
+  }
+}

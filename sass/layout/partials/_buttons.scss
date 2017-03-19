@@ -1,0 +1,13 @@
+button {
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  border-radius: 18px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background-color: #cb4d0f; /* layer fill content */
+  color: $white;
+  font-size: 14px;
+  font-family: $OSBolb;
+  text-transform: uppercase;
+}
