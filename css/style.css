@@ -8025,6 +8025,40 @@ button {
   color: #cb4d0f;
 }
 
+/* line 1, ../sass/layout/partials/_header-circle.scss */
+.header-circle {
+  width: 650px;
+  height: 650px;
+  margin-top: 18.5%;
+  margin-left: -35px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* layer fill content */
+  -moz-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */
+  -webkit-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */
+  box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */
+}
+/* line 16, ../sass/layout/partials/_header-circle.scss */
+.header-circle p {
+  color: #cb4d0f;
+  font-size: 50px;
+  font-family: "Open Sans Semibold";
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
+  padding: 146px 8px 8px;
+}
+
 /* line 1, ../sass/layout/_nav-field.scss */
 .nav-field {
   background-color: rgba(255, 255, 255, 0.5);
@@ -8032,8 +8066,24 @@ button {
 
 /* line 1, ../sass/layout/_header.scss */
 header {
-  height: 770px;
-  background-image: url("/img/header-bg.png");
+  max-height: 770px;
+  background-image: url(/img/header-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+/* line 8, ../sass/layout/_header.scss */
+header:after {
+  padding-top: 6%;
+  bottom: -4px;
+  width: 100%;
+  max-height: 68px;
+  position: absolute;
+  content: '';
+  background-image: url(/img/figure1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* line 1, ../sass/layout/_body.scss */

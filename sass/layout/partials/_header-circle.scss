@@ -1,0 +1,25 @@
+.header-circle {
+  width: 650px;
+  height: 650px;
+  margin-top: 18.5%;
+  margin-left: -35px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background-color: rgba(255,255,255,.5); /* layer fill content */
+  -moz-box-shadow: 0 3px 23px 4px rgba(0,0,0,.43); /* drop shadow */
+  -webkit-box-shadow: 0 3px 23px 4px rgba(0,0,0,.43); /* drop shadow */
+  box-shadow: 0 3px 23px 4px rgba(0,0,0,.43); /* drop shadow */
+  p {
+    color: $orange;
+    font-size: 50px;
+    font-family: $OSSemibold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.2;
+    padding: 146px 8px 8px;
+  }
+}
