@@ -1,0 +1,26 @@
+.implementation-circle {
+  margin-right: -98px;
+  width: 670px;
+  height: 670px;
+  margin-top: 13%;
+  float: right;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background-color: rgba(255,255,255,.5); /* layer fill content */
+  -moz-box-shadow: 0 3px 23px 4px rgba(0,0,0,.43); /* drop shadow */
+  -webkit-box-shadow: 0 3px 23px 4px rgba(0,0,0,.43); /* drop shadow */
+  box-shadow: 0 3px 23px 4px rgba(0,0,0,.43); /* drop shadow */
+  p {
+    color: $orange;
+    font-size: 26px;
+    font-family: $OSRegular;
+    text-align: center;
+    line-height: 1.24;
+    padding: 143px 108px;
+    margin-left: -40px;
+  }
+}

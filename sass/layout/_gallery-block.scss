@@ -1,0 +1,15 @@
+.gallery-block {
+  .gallery-block-title {
+    margin-top: 36px;
+    p {
+      color: $orange;
+      font-size: 32px;
+      font-family: $OSSemibold;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+  .gallery {
+    margin: 49px 108px;
+  }
+}

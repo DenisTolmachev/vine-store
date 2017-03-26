@@ -89,6 +89,11 @@ button, :hover, :focus {
   outline: none;
 }
 
-//.container {
-//  border: 1px solid darkblue;
-//}
+.container {
+  background-color: $white;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

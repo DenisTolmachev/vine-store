@@ -99,6 +99,13 @@ button, :hover, :focus {
   border: none;
   outline: none; }
 
+.container {
+  background-color: #fff; }
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
 /*!
  * Bootstrap v3.0.3 (http://getbootstrap.com)
  * Copyright 2013 Twitter, Inc.
@@ -5264,6 +5271,64 @@ button {
     line-height: 1.2;
     padding: 146px 8px 8px; }
 
+.work-us-title {
+  margin-top: 53px; }
+  .work-us-title p {
+    color: #cb4d0f;
+    font-size: 32px;
+    font-family: "Open Sans Semibold";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5px; }
+
+.implementation-circle {
+  margin-right: -98px;
+  width: 670px;
+  height: 670px;
+  margin-top: 13%;
+  float: right;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* layer fill content */
+  -moz-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */
+  -webkit-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */
+  box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */ }
+  .implementation-circle p {
+    color: #cb4d0f;
+    font-size: 26px;
+    font-family: "Open Sans Regular";
+    text-align: center;
+    line-height: 1.24;
+    padding: 143px 108px;
+    margin-left: -40px; }
+
+.grapes img {
+  margin: 0 auto;
+  padding: 6px;
+  display: block;
+  width: 200px;
+  height: 200px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  background-color: rgba(177, 188, 195, 0.5);
+  /* layer fill content */ }
+
 .nav-field {
   background-color: rgba(255, 255, 255, 0.5); }
 
@@ -5287,6 +5352,71 @@ header {
 
 body {
   background-image: url("/img/beguzor32.jpg"); }
+
+.work-us-info {
+  padding-top: 46px;
+  margin-bottom: 59px; }
+  .work-us-info .consult-block img, .work-us-info .natur-product-block img, .work-us-info .cup-block img, .work-us-info .persent-block img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; }
+  .work-us-info .consult-block h1, .work-us-info .natur-product-block h1, .work-us-info .cup-block h1, .work-us-info .persent-block h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #cb4d0f;
+    font-size: 18px;
+    font-family: "Open Sans Semibold";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5px; }
+  .work-us-info .consult-block .outborder, .work-us-info .natur-product-block .outborder, .work-us-info .cup-block .outborder, .work-us-info .persent-block .outborder {
+    margin-left: -8px;
+    width: 106%; }
+  .work-us-info .consult-block p, .work-us-info .natur-product-block p, .work-us-info .cup-block p, .work-us-info .persent-block p {
+    color: #cb4d0f;
+    font-size: 14px;
+    font-family: "Open Sans Semibold";
+    text-align: justify;
+    padding: 0 24px;
+    margin-top: 16px;
+    line-height: 1.22; }
+
+.implementation-block {
+  max-height: 732px;
+  background-image: url(/img/Drinks_Wine_Bottle.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden; }
+  .implementation-block:before {
+    width: 100%;
+    height: 46px;
+    position: absolute;
+    content: '';
+    background-image: url(/img/figure2.png);
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .implementation-block:after {
+    padding-top: 6%;
+    bottom: -4px;
+    width: 100%;
+    max-height: 68px;
+    position: absolute;
+    content: '';
+    background-image: url(/img/figure1.png);
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.gallery-block .gallery-block-title {
+  margin-top: 36px; }
+  .gallery-block .gallery-block-title p {
+    color: #cb4d0f;
+    font-size: 32px;
+    font-family: "Open Sans Semibold";
+    text-transform: uppercase;
+    text-align: center; }
+.gallery-block .gallery {
+  margin: 49px 108px; }
 
 nav ul {
   margin-left: 16px;
@@ -5367,5 +5497,63 @@ button {
     text-align: center;
     line-height: 1.2;
     padding: 146px 8px 8px; }
+
+.work-us-title {
+  margin-top: 53px; }
+  .work-us-title p {
+    color: #cb4d0f;
+    font-size: 32px;
+    font-family: "Open Sans Semibold";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5px; }
+
+.implementation-circle {
+  margin-right: -98px;
+  width: 670px;
+  height: 670px;
+  margin-top: 13%;
+  float: right;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* layer fill content */
+  -moz-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */
+  -webkit-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */
+  box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */ }
+  .implementation-circle p {
+    color: #cb4d0f;
+    font-size: 26px;
+    font-family: "Open Sans Regular";
+    text-align: center;
+    line-height: 1.24;
+    padding: 143px 108px;
+    margin-left: -40px; }
+
+.grapes img {
+  margin: 0 auto;
+  padding: 6px;
+  display: block;
+  width: 200px;
+  height: 200px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  background-color: rgba(177, 188, 195, 0.5);
+  /* layer fill content */ }
 
 /*# sourceMappingURL=style.css.map */
