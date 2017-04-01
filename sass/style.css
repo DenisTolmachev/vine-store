@@ -5312,22 +5312,49 @@ button {
     padding: 143px 108px;
     margin-left: -40px; }
 
-.grapes img {
-  margin: 0 auto;
-  padding: 6px;
-  display: block;
-  width: 200px;
-  height: 200px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  /* border radius */
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  /* prevents bg color from leaking outside the border */
-  background-color: rgba(177, 188, 195, 0.5);
-  /* layer fill content */ }
+.grapes {
+  margin-bottom: 70px;
+  margin-top: 40px; }
+  .grapes .img-wrap {
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    /* border radius */
+    box-sizing: border-box;
+    border: solid 6px #d8dde1; }
+    .grapes .img-wrap img {
+      margin-top: -7px;
+      margin-left: -30px; }
+
+.show-all-button {
+  text-align: center; }
+  .show-all-button .show-all {
+    margin-bottom: 46px;
+    margin-top: -16px;
+    padding: 7px 39px;
+    color: #fff;
+    font-family: "Open Sans Regular";
+    font-size: 24px;
+    -moz-border-radius: 26px;
+    -webkit-border-radius: 26px;
+    border-radius: 26px;
+    /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* prevents bg color from leaking outside the border */
+    background-color: #cb4d0f;
+    /* layer fill content + color overlay */ }
+    .show-all-button .show-all:hover {
+      color: #cb4d0f;
+      background-color: #fff;
+      /* layer fill content + color overlay */
+      border: solid 1px #cb4d0f; }
 
 .nav-field {
   background-color: rgba(255, 255, 255, 0.5); }
@@ -5416,7 +5443,7 @@ body {
     text-transform: uppercase;
     text-align: center; }
 .gallery-block .gallery {
-  margin: 49px 108px; }
+  margin: 0 108px; }
 
 nav ul {
   margin-left: 16px;
@@ -5539,21 +5566,48 @@ button {
     padding: 143px 108px;
     margin-left: -40px; }
 
-.grapes img {
-  margin: 0 auto;
-  padding: 6px;
-  display: block;
-  width: 200px;
-  height: 200px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  /* border radius */
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  /* prevents bg color from leaking outside the border */
-  background-color: rgba(177, 188, 195, 0.5);
-  /* layer fill content */ }
+.grapes {
+  margin-bottom: 70px;
+  margin-top: 40px; }
+  .grapes .img-wrap {
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    /* border radius */
+    box-sizing: border-box;
+    border: solid 6px #d8dde1; }
+    .grapes .img-wrap img {
+      margin-top: -7px;
+      margin-left: -30px; }
+
+.show-all-button {
+  text-align: center; }
+  .show-all-button .show-all {
+    margin-bottom: 46px;
+    margin-top: -16px;
+    padding: 7px 39px;
+    color: #fff;
+    font-family: "Open Sans Regular";
+    font-size: 24px;
+    -moz-border-radius: 26px;
+    -webkit-border-radius: 26px;
+    border-radius: 26px;
+    /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* prevents bg color from leaking outside the border */
+    background-color: #cb4d0f;
+    /* layer fill content + color overlay */ }
+    .show-all-button .show-all:hover {
+      color: #cb4d0f;
+      background-color: #fff;
+      /* layer fill content + color overlay */
+      border: solid 1px #cb4d0f; }
 
 /*# sourceMappingURL=style.css.map */

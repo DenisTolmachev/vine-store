@@ -1,17 +1,20 @@
 .grapes {
-  img {
+  margin-bottom: 70px;
+  margin-top: 40px;
+  .img-wrap {
+    overflow: hidden;
     margin: 0 auto;
-    padding: 6px;
     display: block;
     width: 200px;
     height: 200px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%; /* border radius */
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box; /* prevents bg color from leaking outside the border */
-    background-color: rgba(177,188,195,.5); /* layer fill content */
+    box-sizing: border-box;
+    border: solid 6px #d8dde1;
+    img {
+      margin-top: -7px;
+      margin-left: -30px;
+    }
   }
-
 }
