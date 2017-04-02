@@ -1,0 +1,30 @@
+.contacts {
+  display: inline;
+  img {
+    float: left;
+    margin-top: 11px;
+  }
+  .mail {
+    margin-left: -51px;
+  }
+  p {
+    margin-left: 14px;
+    margin-top: 22px;
+    float: left;
+    color: $white;
+    font-family: $OSBolb;
+    font-size: 22px;
+  }
+  a {
+    margin-left: 14px;
+    margin-top: 22px;
+    float: left;
+    color: $white;
+    font-family: $OSBolb;
+    font-size: 22px;
+    text-decoration: none;
+    &:hover {
+      color: $orange-dark;
+    }
+  }
+}

@@ -7,6 +7,7 @@
     color: $white;
     font-family: $OSRegular;
     font-size: 24px;
+    border: solid 1px #fff;
     -moz-border-radius: 26px;
     -webkit-border-radius: 26px;
     border-radius: 26px; /* border radius */
@@ -18,6 +19,7 @@
       color: #cb4d0f;
       background-color: #fff; /* layer fill content + color overlay */
       border: solid 1px #cb4d0f;
+      box-sizing: border-box;
     }
   }
 }

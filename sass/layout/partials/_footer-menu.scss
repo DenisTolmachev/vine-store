@@ -1,14 +1,14 @@
-.navbar-header{
+.navbar-footer{
   ul {
-    margin-left: 16px;
-    margin-top: 11px;
-    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
     li {
       display: inline;
-      margin-right: 26px;
+      margin: 30px;
       a {
-        color: $orange;
-        font-family: $OSBolb;
+        color: $white;
+        font-family: $OSRegular;
         font-size: 18px;
         text-transform: uppercase;
         text-decoration: none !important;

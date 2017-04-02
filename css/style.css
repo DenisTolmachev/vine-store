@@ -7967,18 +7967,18 @@ th.hidden-lg, td.hidden-lg {
   }
 }
 /* line 2, ../sass/layout/partials/_nav-menu.scss */
-nav ul {
+.navbar-header ul {
   margin-left: 16px;
   margin-top: 11px;
   margin-bottom: 10px;
 }
 /* line 6, ../sass/layout/partials/_nav-menu.scss */
-nav ul li {
+.navbar-header ul li {
   display: inline;
   margin-right: 26px;
 }
 /* line 9, ../sass/layout/partials/_nav-menu.scss */
-nav ul li a {
+.navbar-header ul li a {
   color: #cb4d0f;
   font-family: "Open Sans Bold";
   font-size: 18px;
@@ -7986,7 +7986,7 @@ nav ul li a {
   text-decoration: none !important;
 }
 /* line 15, ../sass/layout/partials/_nav-menu.scss */
-nav ul li a:hover {
+.navbar-header ul li a:hover {
   color: #4f3715;
 }
 
@@ -8156,6 +8156,7 @@ button {
   color: #fff;
   font-family: "Open Sans Regular";
   font-size: 24px;
+  border: solid 1px #fff;
   -moz-border-radius: 26px;
   -webkit-border-radius: 26px;
   border-radius: 26px;
@@ -8167,12 +8168,83 @@ button {
   background-color: #cb4d0f;
   /* layer fill content + color overlay */
 }
-/* line 17, ../sass/layout/partials/_show-all-button.scss */
+/* line 18, ../sass/layout/partials/_show-all-button.scss */
 .show-all-button .show-all:hover {
   color: #cb4d0f;
   background-color: #fff;
   /* layer fill content + color overlay */
   border: solid 1px #cb4d0f;
+  box-sizing: border-box;
+}
+
+/* line 2, ../sass/layout/partials/_footer-text.scss */
+.footer-text p {
+  text-align: center;
+  color: #fff;
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+/* line 1, ../sass/layout/partials/_contacts.scss */
+.contacts {
+  display: inline;
+}
+/* line 3, ../sass/layout/partials/_contacts.scss */
+.contacts img {
+  float: left;
+  margin-top: 11px;
+}
+/* line 7, ../sass/layout/partials/_contacts.scss */
+.contacts .mail {
+  margin-left: -51px;
+}
+/* line 10, ../sass/layout/partials/_contacts.scss */
+.contacts p {
+  margin-left: 14px;
+  margin-top: 22px;
+  float: left;
+  color: #fff;
+  font-family: "Open Sans Bold";
+  font-size: 22px;
+}
+/* line 18, ../sass/layout/partials/_contacts.scss */
+.contacts a {
+  margin-left: 14px;
+  margin-top: 22px;
+  float: left;
+  color: #fff;
+  font-family: "Open Sans Bold";
+  font-size: 22px;
+  text-decoration: none;
+}
+/* line 26, ../sass/layout/partials/_contacts.scss */
+.contacts a:hover {
+  color: #4f3715;
+}
+
+/* line 2, ../sass/layout/partials/_footer-menu.scss */
+.navbar-footer ul {
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+/* line 6, ../sass/layout/partials/_footer-menu.scss */
+.navbar-footer ul li {
+  display: inline;
+  margin: 30px;
+}
+/* line 9, ../sass/layout/partials/_footer-menu.scss */
+.navbar-footer ul li a {
+  color: #fff;
+  font-family: "Open Sans Regular";
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+/* line 15, ../sass/layout/partials/_footer-menu.scss */
+.navbar-footer ul li a:hover {
+  color: #4f3715;
 }
 
 /* line 1, ../sass/layout/_nav-field.scss */
@@ -8292,4 +8364,22 @@ body {
 /* line 12, ../sass/layout/_gallery-block.scss */
 .gallery-block .gallery {
   margin: 0 108px;
+}
+
+/* line 1, ../sass/layout/_footer.scss */
+footer {
+  max-height: 271px;
+  background-image: url(/img/footer-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding: 29px 20px 27px;
+}
+/* line 9, ../sass/layout/_footer.scss */
+footer .copyright {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans Regular";
 }

@@ -5191,20 +5191,20 @@ th.hidden-lg, td.hidden-lg {
 
   .hidden-print, tr.hidden-print, th.hidden-print, td.hidden-print {
     display: none !important; } }
-nav ul {
+.navbar-header ul {
   margin-left: 16px;
   margin-top: 11px;
   margin-bottom: 10px; }
-  nav ul li {
+  .navbar-header ul li {
     display: inline;
     margin-right: 26px; }
-    nav ul li a {
+    .navbar-header ul li a {
       color: #cb4d0f;
       font-family: "Open Sans Bold";
       font-size: 18px;
       text-transform: uppercase;
       text-decoration: none !important; }
-      nav ul li a:hover {
+      .navbar-header ul li a:hover {
         color: #4f3715; }
 
 button {
@@ -5340,6 +5340,7 @@ button {
     color: #fff;
     font-family: "Open Sans Regular";
     font-size: 24px;
+    border: solid 1px #fff;
     -moz-border-radius: 26px;
     -webkit-border-radius: 26px;
     border-radius: 26px;
@@ -5354,7 +5355,56 @@ button {
       color: #cb4d0f;
       background-color: #fff;
       /* layer fill content + color overlay */
-      border: solid 1px #cb4d0f; }
+      border: solid 1px #cb4d0f;
+      box-sizing: border-box; }
+
+.footer-text p {
+  text-align: center;
+  color: #fff;
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 1.3; }
+
+.contacts {
+  display: inline; }
+  .contacts img {
+    float: left;
+    margin-top: 11px; }
+  .contacts .mail {
+    margin-left: -51px; }
+  .contacts p {
+    margin-left: 14px;
+    margin-top: 22px;
+    float: left;
+    color: #fff;
+    font-family: "Open Sans Bold";
+    font-size: 22px; }
+  .contacts a {
+    margin-left: 14px;
+    margin-top: 22px;
+    float: left;
+    color: #fff;
+    font-family: "Open Sans Bold";
+    font-size: 22px;
+    text-decoration: none; }
+    .contacts a:hover {
+      color: #4f3715; }
+
+.navbar-footer ul {
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 28px; }
+  .navbar-footer ul li {
+    display: inline;
+    margin: 30px; }
+    .navbar-footer ul li a {
+      color: #fff;
+      font-family: "Open Sans Regular";
+      font-size: 18px;
+      text-transform: uppercase;
+      text-decoration: none !important; }
+      .navbar-footer ul li a:hover {
+        color: #4f3715; }
 
 .nav-field {
   background-color: rgba(255, 255, 255, 0.5); }
@@ -5445,20 +5495,34 @@ body {
 .gallery-block .gallery {
   margin: 0 108px; }
 
-nav ul {
+footer {
+  max-height: 271px;
+  background-image: url(/img/footer-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding: 29px 20px 27px; }
+  footer .copyright {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Open Sans Regular"; }
+
+.navbar-header ul {
   margin-left: 16px;
   margin-top: 11px;
   margin-bottom: 10px; }
-  nav ul li {
+  .navbar-header ul li {
     display: inline;
     margin-right: 26px; }
-    nav ul li a {
+    .navbar-header ul li a {
       color: #cb4d0f;
       font-family: "Open Sans Bold";
       font-size: 18px;
       text-transform: uppercase;
       text-decoration: none !important; }
-      nav ul li a:hover {
+      .navbar-header ul li a:hover {
         color: #4f3715; }
 
 button {
@@ -5594,6 +5658,7 @@ button {
     color: #fff;
     font-family: "Open Sans Regular";
     font-size: 24px;
+    border: solid 1px #fff;
     -moz-border-radius: 26px;
     -webkit-border-radius: 26px;
     border-radius: 26px;
@@ -5608,6 +5673,55 @@ button {
       color: #cb4d0f;
       background-color: #fff;
       /* layer fill content + color overlay */
-      border: solid 1px #cb4d0f; }
+      border: solid 1px #cb4d0f;
+      box-sizing: border-box; }
+
+.footer-text p {
+  text-align: center;
+  color: #fff;
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 1.3; }
+
+.contacts {
+  display: inline; }
+  .contacts img {
+    float: left;
+    margin-top: 11px; }
+  .contacts .mail {
+    margin-left: -51px; }
+  .contacts p {
+    margin-left: 14px;
+    margin-top: 22px;
+    float: left;
+    color: #fff;
+    font-family: "Open Sans Bold";
+    font-size: 22px; }
+  .contacts a {
+    margin-left: 14px;
+    margin-top: 22px;
+    float: left;
+    color: #fff;
+    font-family: "Open Sans Bold";
+    font-size: 22px;
+    text-decoration: none; }
+    .contacts a:hover {
+      color: #4f3715; }
+
+.navbar-footer ul {
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 28px; }
+  .navbar-footer ul li {
+    display: inline;
+    margin: 30px; }
+    .navbar-footer ul li a {
+      color: #fff;
+      font-family: "Open Sans Regular";
+      font-size: 18px;
+      text-transform: uppercase;
+      text-decoration: none !important; }
+      .navbar-footer ul li a:hover {
+        color: #4f3715; }
 
 /*# sourceMappingURL=style.css.map */
