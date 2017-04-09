@@ -5460,7 +5460,7 @@ body {
 
 .implementation-block {
   max-height: 732px;
-  background-image: url(/img/Drinks_Wine_Bottle.png);
+  background-image: url(../img/Drinks_Wine_Bottle.png);
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -5470,7 +5470,7 @@ body {
     height: 46px;
     position: absolute;
     content: '';
-    background-image: url(/img/figure2.png);
+    background-image: url(../img/figure2.png);
     background-repeat: no-repeat;
     background-size: contain; }
   .implementation-block:after {
@@ -5480,7 +5480,7 @@ body {
     max-height: 68px;
     position: absolute;
     content: '';
-    background-image: url(/img/figure1.png);
+    background-image: url(../img/figure1.png);
     background-repeat: no-repeat;
     background-size: contain; }
 
@@ -5497,7 +5497,7 @@ body {
 
 footer {
   max-height: 271px;
-  background-image: url(/img/footer-bg.png);
+  background-image: url(../img/footer-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
