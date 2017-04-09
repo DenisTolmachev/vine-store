@@ -8137,13 +8137,14 @@ button {
   /* border radius */
   box-sizing: border-box;
   border: solid 6px #d8dde1;
+  cursor: pointer;
 }
-/* line 15, ../sass/layout/partials/_grapes.scss */
+/* line 16, ../sass/layout/partials/_grapes.scss */
 .grapes .img-wrap img {
   margin-top: -7px;
   margin-left: -30px;
 }
-/* line 19, ../sass/layout/partials/_grapes.scss */
+/* line 20, ../sass/layout/partials/_grapes.scss */
 .grapes .img-wrap .img-title {
   height: 46px;
   width: 173px;
@@ -8162,7 +8163,11 @@ button {
   background-color: rgba(177, 188, 195, 0.7);
   /* layer fill content */
 }
-/* line 33, ../sass/layout/partials/_grapes.scss */
+/* line 34, ../sass/layout/partials/_grapes.scss */
+.grapes .img-wrap .img-title:hover {
+  background-color: rgba(177, 188, 195, 0.9);
+}
+/* line 37, ../sass/layout/partials/_grapes.scss */
 .grapes .img-wrap .img-title p {
   color: #fff;
   font-family: "Open Sans Bold";
@@ -8272,6 +8277,72 @@ button {
 /* line 15, ../sass/layout/partials/_footer-menu.scss */
 .navbar-footer ul li a:hover {
   color: #4f3715;
+}
+
+/* line 1, ../sass/layout/partials/_poptrox-popup.scss */
+.poptrox-popup {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0.5em 3em 0 rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* line 12, ../sass/layout/partials/_poptrox-popup.scss */
+.poptrox-popup .closer {
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  text-decoration: none;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 2;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  white-space: nowrap;
+  text-indent: 2.5em;
+  overflow: hidden;
+  width: 2.5em;
+  height: 2.5em;
+  display: block;
+}
+
+/* line 31, ../sass/layout/partials/_poptrox-popup.scss */
+.poptrox-popup .closer:before {
+  content: "X";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 41, ../sass/layout/partials/_poptrox-popup.scss */
+.poptrox-popup .closer:before {
+  display: block;
+  position: relative;
+  text-indent: 0;
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  color: #ffffff !important;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+}
+
+/* line 53, ../sass/layout/partials/_poptrox-popup.scss */
+.poptrox-popup:hover .closer {
+  opacity: 0.5;
+}
+
+/* line 57, ../sass/layout/partials/_poptrox-popup.scss */
+.poptrox-popup:hover .closer:hover {
+  opacity: 1.0;
 }
 
 /* line 1, ../sass/layout/_nav-field.scss */

@@ -12,6 +12,7 @@
     border-radius: 50%; /* border radius */
     box-sizing: border-box;
     border: solid 6px #d8dde1;
+    cursor: pointer;
     img {
       margin-top: -7px;
       margin-left: -30px;
@@ -30,6 +31,9 @@
       -webkit-background-clip: padding-box;
       background-clip: padding-box; /* prevents bg color from leaking outside the border */
       background-color: rgba(177,188,195,.7); /* layer fill content */
+      &:hover {
+        background-color: rgba(177,188,195,.9);
+      }
       p {
         color: $white;
         font-family: $OSBolb;

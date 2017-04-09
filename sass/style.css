@@ -5326,7 +5326,8 @@ button {
     border-radius: 50%;
     /* border radius */
     box-sizing: border-box;
-    border: solid 6px #d8dde1; }
+    border: solid 6px #d8dde1;
+    cursor: pointer; }
     .grapes .img-wrap img {
       margin-top: -7px;
       margin-left: -30px; }
@@ -5347,6 +5348,8 @@ button {
       /* prevents bg color from leaking outside the border */
       background-color: rgba(177, 188, 195, 0.7);
       /* layer fill content */ }
+      .grapes .img-wrap .img-title:hover {
+        background-color: rgba(177, 188, 195, 0.9); }
       .grapes .img-wrap .img-title p {
         color: #fff;
         font-family: "Open Sans Bold";
@@ -5428,6 +5431,60 @@ button {
       text-decoration: none !important; }
       .navbar-footer ul li a:hover {
         color: #4f3715; }
+
+.poptrox-popup {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0.5em 3em 0 rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  overflow: hidden; }
+
+.poptrox-popup .closer {
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  text-decoration: none;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 2;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  white-space: nowrap;
+  text-indent: 2.5em;
+  overflow: hidden;
+  width: 2.5em;
+  height: 2.5em;
+  display: block; }
+
+.poptrox-popup .closer:before {
+  content: "X";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important; }
+
+.poptrox-popup .closer:before {
+  display: block;
+  position: relative;
+  text-indent: 0;
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  color: #ffffff !important;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em; }
+
+.poptrox-popup:hover .closer {
+  opacity: 0.5; }
+
+.poptrox-popup:hover .closer:hover {
+  opacity: 1.0; }
 
 .nav-field {
   background-color: rgba(255, 255, 255, 0.5); }
@@ -5667,7 +5724,8 @@ button {
     border-radius: 50%;
     /* border radius */
     box-sizing: border-box;
-    border: solid 6px #d8dde1; }
+    border: solid 6px #d8dde1;
+    cursor: pointer; }
     .grapes .img-wrap img {
       margin-top: -7px;
       margin-left: -30px; }
@@ -5688,6 +5746,8 @@ button {
       /* prevents bg color from leaking outside the border */
       background-color: rgba(177, 188, 195, 0.7);
       /* layer fill content */ }
+      .grapes .img-wrap .img-title:hover {
+        background-color: rgba(177, 188, 195, 0.9); }
       .grapes .img-wrap .img-title p {
         color: #fff;
         font-family: "Open Sans Bold";
@@ -5769,5 +5829,59 @@ button {
       text-decoration: none !important; }
       .navbar-footer ul li a:hover {
         color: #4f3715; }
+
+.poptrox-popup {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0.5em 3em 0 rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  overflow: hidden; }
+
+.poptrox-popup .closer {
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  text-decoration: none;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 2;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  white-space: nowrap;
+  text-indent: 2.5em;
+  overflow: hidden;
+  width: 2.5em;
+  height: 2.5em;
+  display: block; }
+
+.poptrox-popup .closer:before {
+  content: "X";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important; }
+
+.poptrox-popup .closer:before {
+  display: block;
+  position: relative;
+  text-indent: 0;
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  color: #ffffff !important;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em; }
+
+.poptrox-popup:hover .closer {
+  opacity: 0.5; }
+
+.poptrox-popup:hover .closer:hover {
+  opacity: 1.0; }
 
 /*# sourceMappingURL=style.css.map */
