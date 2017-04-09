@@ -5423,7 +5423,7 @@ header {
     max-height: 68px;
     position: absolute;
     content: '';
-    background-image: url(/img/figure1.png);
+    background-image: url(../img/figure1.png);
     background-repeat: no-repeat;
     background-size: contain; }
 
