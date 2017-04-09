@@ -16,5 +16,27 @@
       margin-top: -7px;
       margin-left: -30px;
     }
+    .img-title {
+      height: 46px;
+      width: 173px;
+      right: 40px;
+      position: absolute;
+      z-index: 11;
+      bottom: 80px;
+      -moz-border-radius: 23px;
+      -webkit-border-radius: 23px;
+      border-radius: 23px; /* border radius */
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; /* prevents bg color from leaking outside the border */
+      background-color: rgba(177,188,195,.7); /* layer fill content */
+      p {
+        color: $white;
+        font-family: $OSBolb;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
   }
 }
