@@ -8352,7 +8352,7 @@ button {
 
 /* line 1, ../sass/layout/_header.scss */
 header {
-  max-height: 770px;
+  height: 770px;
   background-image: url(../img/header-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -8417,7 +8417,7 @@ body {
 
 /* line 1, ../sass/layout/_implementation-block.scss */
 .implementation-block {
-  max-height: 732px;
+  height: 732px;
   background-image: url(../img/Drinks_Wine_Bottle.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -8466,7 +8466,7 @@ body {
 
 /* line 1, ../sass/layout/_footer.scss */
 footer {
-  max-height: 271px;
+  height: 271px;
   background-image: url(../img/footer-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -8480,4 +8480,76 @@ footer .copyright {
   color: #fff;
   font-size: 14px;
   font-family: "Open Sans Regular";
+}
+
+@media all and (max-width: 1200px) {
+  /* line 2, ../sass/media/_media.scss */
+  header {
+    height: 660px;
+  }
+
+  /* line 7, ../sass/media/_media.scss */
+  .navbar-header ul li {
+    margin-right: 16px;
+  }
+
+  /* line 12, ../sass/media/_media.scss */
+  .implementation-block {
+    height: 650px;
+  }
+
+  /* line 15, ../sass/media/_media.scss */
+  .phone-st {
+    padding: 0 74px;
+  }
+
+  /* line 18, ../sass/media/_media.scss */
+  .phone-mob {
+    padding: 0 74px;
+  }
+
+  /* line 21, ../sass/media/_media.scss */
+  .e-mail {
+    padding: 0 246px;
+  }
+  /* line 23, ../sass/media/_media.scss */
+  .e-mail .mail {
+    margin-left: 0;
+  }
+
+  /* line 27, ../sass/media/_media.scss */
+  footer {
+    height: 340px;
+    background-size: cover;
+  }
+}
+@media all and (max-width: 992px) {
+  /* line 35, ../sass/media/_media.scss */
+  .contacts img {
+    width: 50px;
+  }
+  /* line 38, ../sass/media/_media.scss */
+  .contacts p, .contacts a {
+    font-size: 18px;
+  }
+
+  /* line 42, ../sass/media/_media.scss */
+  .e-mail {
+    padding: 0 74px;
+  }
+
+  /* line 46, ../sass/media/_media.scss */
+  .navbar-footer ul {
+    margin-top: 14px;
+    margin-bottom: 10px;
+  }
+  /* line 49, ../sass/media/_media.scss */
+  .navbar-footer ul li {
+    margin: 12px;
+  }
+
+  /* line 54, ../sass/media/_media.scss */
+  footer {
+    height: 360px;
+  }
 }

@@ -1,9 +1,59 @@
 @media all and (max-width: 1200px) {
-
+  header {
+    height: 660px;
+  }
+  .navbar-header{
+    ul {
+      li {
+        margin-right: 16px;
+      }
+    }
+  }
+  .implementation-block {
+    height: 650px;
+  }
+  .phone-st {
+    padding: 0 74px;
+  }
+  .phone-mob {
+    padding: 0 74px;
+  }
+  .e-mail {
+    padding: 0 246px;
+    .mail {
+      margin-left: 0;
+    }
+  }
+  footer {
+    height: 340px;
+    background-size: cover;
+  }
 }
 
 @media all and (max-width: 992px) {
-
+  .contacts {
+    img {
+      width: 50px;
+    }
+    p, a {
+      font-size: 18px;
+    }
+  }
+  .e-mail {
+    padding: 0 74px;
+  }
+  .navbar-footer {
+    ul {
+      margin-top: 14px;
+      margin-bottom: 10px;
+      li {
+        margin: 12px;
+      }
+    }
+  }
+  footer {
+    height: 360px;
+  }
 }
 
 @media all and (max-width: 767px) {
