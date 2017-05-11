@@ -5576,13 +5576,12 @@ body {
   margin: 0 108px; }
 
 footer {
-  height: 271px;
   background-image: url(../img/footer-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 29px 20px 27px; }
+  padding: 29px 20px 5px; }
   footer .copyright {
     text-align: center;
     color: #fff;
@@ -5906,24 +5905,81 @@ button {
       margin-left: 0; }
 
   footer {
-    height: 340px;
     background-size: cover; } }
 @media all and (max-width: 991px) {
-  .contacts img {
-    width: 50px; }
-  .contacts p, .contacts a {
+  header {
+    height: 480px; }
+    header .header-circle {
+      width: 450px;
+      height: 450px;
+      margin-top: 10.5%;
+      margin-left: -64px; }
+      header .header-circle p {
+        font-size: 31px;
+        padding: 88px 63px 8px;
+        margin-left: 36px; }
+
+  .work-us-title {
+    margin-top: 16px; }
+    .work-us-title p {
+      font-size: 26px; }
+
+  .work-us-info {
+    padding-top: 16px;
+    margin-bottom: 20px; }
+
+  .implementation-block {
+    height: 460px; }
+    .implementation-block .implementation-circle {
+      margin-right: -90px;
+      width: 450px;
+      height: 450px; }
+      .implementation-block .implementation-circle p {
+        font-size: 16px;
+        padding: 97px 101px; }
+
+  .gallery-block-title {
+    margin-top: 16px; }
+    .gallery-block-title p {
+      font-size: 26px; }
+
+  .grapes {
+    margin-bottom: 35px;
+    margin-top: 20px; }
+    .grapes .img-wrap .img-title {
+      height: 46px;
+      bottom: 46px; }
+
+  .show-all-button .show-all {
+    margin-bottom: 30px;
+    padding: 5px 26px;
     font-size: 18px; }
 
+  footer {
+    padding: 5px 20px 5px; }
+    footer .footer-text {
+      display: none; }
+
+  .contacts img {
+    width: 40px; }
+  .contacts p, .contacts a {
+    font-size: 16px; }
+
+  .phone-st {
+    padding: 0 58px; }
+
+  .phone-mob {
+    padding: 0 58px; }
+
   .e-mail {
-    padding: 0 74px; }
+    padding: 0 192px; }
 
   .navbar-footer ul {
     margin-top: 14px;
     margin-bottom: 10px; }
     .navbar-footer ul li {
-      margin: 12px; }
-
-  footer {
-    height: 360px; } }
+      margin: 6px; }
+      .navbar-footer ul li a {
+        font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */

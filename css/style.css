@@ -8466,15 +8466,14 @@ body {
 
 /* line 1, ../sass/layout/_footer.scss */
 footer {
-  height: 271px;
   background-image: url(../img/footer-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
-  padding: 29px 20px 27px;
+  padding: 29px 20px 5px;
 }
-/* line 9, ../sass/layout/_footer.scss */
+/* line 8, ../sass/layout/_footer.scss */
 footer .copyright {
   text-align: center;
   color: #fff;
@@ -8519,37 +8518,130 @@ footer .copyright {
 
   /* line 27, ../sass/media/_media.scss */
   footer {
-    height: 340px;
     background-size: cover;
   }
 }
 @media all and (max-width: 991px) {
-  /* line 35, ../sass/media/_media.scss */
-  .contacts img {
-    width: 50px;
+  /* line 33, ../sass/media/_media.scss */
+  header {
+    height: 480px;
   }
-  /* line 38, ../sass/media/_media.scss */
-  .contacts p, .contacts a {
+  /* line 35, ../sass/media/_media.scss */
+  header .header-circle {
+    width: 450px;
+    height: 450px;
+    margin-top: 10.5%;
+    margin-left: -64px;
+  }
+  /* line 40, ../sass/media/_media.scss */
+  header .header-circle p {
+    font-size: 31px;
+    padding: 88px 63px 8px;
+    margin-left: 36px;
+  }
+
+  /* line 47, ../sass/media/_media.scss */
+  .work-us-title {
+    margin-top: 16px;
+  }
+  /* line 49, ../sass/media/_media.scss */
+  .work-us-title p {
+    font-size: 26px;
+  }
+
+  /* line 53, ../sass/media/_media.scss */
+  .work-us-info {
+    padding-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  /* line 57, ../sass/media/_media.scss */
+  .implementation-block {
+    height: 460px;
+  }
+  /* line 59, ../sass/media/_media.scss */
+  .implementation-block .implementation-circle {
+    margin-right: -90px;
+    width: 450px;
+    height: 450px;
+  }
+  /* line 63, ../sass/media/_media.scss */
+  .implementation-block .implementation-circle p {
+    font-size: 16px;
+    padding: 97px 101px;
+  }
+
+  /* line 69, ../sass/media/_media.scss */
+  .gallery-block-title {
+    margin-top: 16px;
+  }
+  /* line 71, ../sass/media/_media.scss */
+  .gallery-block-title p {
+    font-size: 26px;
+  }
+
+  /* line 75, ../sass/media/_media.scss */
+  .grapes {
+    margin-bottom: 35px;
+    margin-top: 20px;
+  }
+  /* line 79, ../sass/media/_media.scss */
+  .grapes .img-wrap .img-title {
+    height: 46px;
+    bottom: 46px;
+  }
+
+  /* line 86, ../sass/media/_media.scss */
+  .show-all-button .show-all {
+    margin-bottom: 30px;
+    padding: 5px 26px;
     font-size: 18px;
   }
 
-  /* line 42, ../sass/media/_media.scss */
-  .e-mail {
-    padding: 0 74px;
+  /* line 92, ../sass/media/_media.scss */
+  footer {
+    padding: 5px 20px 5px;
+  }
+  /* line 94, ../sass/media/_media.scss */
+  footer .footer-text {
+    display: none;
   }
 
-  /* line 46, ../sass/media/_media.scss */
+  /* line 99, ../sass/media/_media.scss */
+  .contacts img {
+    width: 40px;
+  }
+  /* line 102, ../sass/media/_media.scss */
+  .contacts p, .contacts a {
+    font-size: 16px;
+  }
+
+  /* line 106, ../sass/media/_media.scss */
+  .phone-st {
+    padding: 0 58px;
+  }
+
+  /* line 109, ../sass/media/_media.scss */
+  .phone-mob {
+    padding: 0 58px;
+  }
+
+  /* line 112, ../sass/media/_media.scss */
+  .e-mail {
+    padding: 0 192px;
+  }
+
+  /* line 116, ../sass/media/_media.scss */
   .navbar-footer ul {
     margin-top: 14px;
     margin-bottom: 10px;
   }
-  /* line 49, ../sass/media/_media.scss */
+  /* line 119, ../sass/media/_media.scss */
   .navbar-footer ul li {
-    margin: 12px;
+    margin: 6px;
   }
-
-  /* line 54, ../sass/media/_media.scss */
-  footer {
-    height: 360px;
+  /* line 121, ../sass/media/_media.scss */
+  .navbar-footer ul li a {
+    font-size: 16px;
   }
 }
