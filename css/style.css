@@ -8523,7 +8523,7 @@ footer .copyright {
     background-size: cover;
   }
 }
-@media all and (max-width: 992px) {
+@media all and (max-width: 991px) {
   /* line 35, ../sass/media/_media.scss */
   .contacts img {
     width: 50px;
