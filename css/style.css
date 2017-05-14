@@ -8234,7 +8234,7 @@ button {
 }
 /* line 10, ../sass/layout/partials/_contacts.scss */
 .contacts p {
-  margin-left: 14px;
+  margin-left: 12px;
   margin-top: 22px;
   float: left;
   color: #fff;
@@ -8243,7 +8243,7 @@ button {
 }
 /* line 18, ../sass/layout/partials/_contacts.scss */
 .contacts a {
-  margin-left: 12px;
+  margin-left: 10px;
   margin-top: 22px;
   float: left;
   color: #fff;
@@ -8602,10 +8602,6 @@ footer .copyright {
   /* line 92, ../sass/media/_media.scss */
   footer {
     padding: 5px 20px 5px;
-  }
-  /* line 94, ../sass/media/_media.scss */
-  footer .footer-text {
-    display: none;
   }
 
   /* line 99, ../sass/media/_media.scss */

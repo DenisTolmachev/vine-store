@@ -5400,14 +5400,14 @@ button {
   .contacts .mail {
     margin-left: -51px; }
   .contacts p {
-    margin-left: 14px;
+    margin-left: 12px;
     margin-top: 22px;
     float: left;
     color: #fff;
     font-family: "Open Sans Bold";
     font-size: 22px; }
   .contacts a {
-    margin-left: 12px;
+    margin-left: 10px;
     margin-top: 22px;
     float: left;
     color: #fff;
@@ -5798,14 +5798,14 @@ button {
   .contacts .mail {
     margin-left: -51px; }
   .contacts p {
-    margin-left: 14px;
+    margin-left: 12px;
     margin-top: 22px;
     float: left;
     color: #fff;
     font-family: "Open Sans Bold";
     font-size: 22px; }
   .contacts a {
-    margin-left: 12px;
+    margin-left: 10px;
     margin-top: 22px;
     float: left;
     color: #fff;
@@ -5959,8 +5959,6 @@ button {
 
   footer {
     padding: 5px 20px 5px; }
-    footer .footer-text {
-      display: none; }
 
   .contacts img {
     width: 40px; }
