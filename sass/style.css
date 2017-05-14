@@ -5228,7 +5228,8 @@ button {
   display: inline-block; }
   .register-box .cart {
     float: left;
-    margin-top: 5px; }
+    margin-top: 5px;
+    cursor: pointer; }
   .register-box .buttons {
     display: inline-block;
     float: right;
@@ -5625,7 +5626,8 @@ button {
   display: inline-block; }
   .register-box .cart {
     float: left;
-    margin-top: 5px; }
+    margin-top: 5px;
+    cursor: pointer; }
   .register-box .buttons {
     display: inline-block;
     float: right;
@@ -5972,7 +5974,7 @@ button {
     padding: 0 58px; }
 
   .e-mail {
-    padding: 0 192px; }
+    padding: 0 190px; }
 
   .navbar-footer ul {
     margin-top: 14px;

@@ -8017,20 +8017,21 @@ button {
 .register-box .cart {
   float: left;
   margin-top: 5px;
+  cursor: pointer;
 }
-/* line 9, ../sass/layout/partials/_register-box.scss */
+/* line 10, ../sass/layout/partials/_register-box.scss */
 .register-box .buttons {
   display: inline-block;
   float: right;
   padding-top: 5px;
   padding-right: 22px;
 }
-/* line 14, ../sass/layout/partials/_register-box.scss */
+/* line 15, ../sass/layout/partials/_register-box.scss */
 .register-box .buttons button {
   padding: 8px 36px;
   margin-left: 12px;
 }
-/* line 17, ../sass/layout/partials/_register-box.scss */
+/* line 18, ../sass/layout/partials/_register-box.scss */
 .register-box .buttons button:hover {
   background-color: #fffdfd;
   color: #cb4d0f;
@@ -8628,7 +8629,7 @@ footer .copyright {
 
   /* line 112, ../sass/media/_media.scss */
   .e-mail {
-    padding: 0 192px;
+    padding: 0 190px;
   }
 
   /* line 116, ../sass/media/_media.scss */
