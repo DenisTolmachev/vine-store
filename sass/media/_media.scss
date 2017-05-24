@@ -9,6 +9,10 @@
       }
     }
   }
+  #sliding-menu {
+    //margin-left: 9999px;
+    display: none;
+  }
   .implementation-block {
     height: 650px;
   }
@@ -123,6 +127,22 @@
         }
       }
     }
+  }
+}
+
+@media all and (max-width: 800px) {
+ .navbar-header {
+   display: none;
+ }
+  #reg-buttons {
+    display: none;
+  }
+  .register-box .cart {
+    float: right;
+  }
+  #sliding-menu {
+    //margin-left: 1px;
+    display: block;
   }
 }
 

@@ -5487,6 +5487,30 @@ button {
 .poptrox-popup:hover .closer:hover {
   opacity: 1.0; }
 
+#sliding-menu .menu {
+  display: block;
+  width: 250px; }
+  #sliding-menu .menu > div {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 250px; }
+    #sliding-menu .menu > div.left {
+      background: #273D7A;
+      left: -250px; }
+    #sliding-menu .menu > div.visible.left {
+      left: 250px; }
+    #sliding-menu .menu > div > .menu-item {
+      float: left;
+      width: 100%;
+      margin: 0;
+      padding: 10px 15px;
+      border-bottom: solid 1px #555;
+      cursor: pointer;
+      color: #B0B0B0; }
+      #sliding-menu .menu > div > .menu-item:hover {
+        color: #F0F0F0; }
+
 .nav-field {
   background-color: rgba(255, 255, 255, 0.5); }
 
@@ -5885,12 +5909,39 @@ button {
 .poptrox-popup:hover .closer:hover {
   opacity: 1.0; }
 
+#sliding-menu .menu {
+  display: block;
+  width: 250px; }
+  #sliding-menu .menu > div {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 250px; }
+    #sliding-menu .menu > div.left {
+      background: #273D7A;
+      left: -250px; }
+    #sliding-menu .menu > div.visible.left {
+      left: 250px; }
+    #sliding-menu .menu > div > .menu-item {
+      float: left;
+      width: 100%;
+      margin: 0;
+      padding: 10px 15px;
+      border-bottom: solid 1px #555;
+      cursor: pointer;
+      color: #B0B0B0; }
+      #sliding-menu .menu > div > .menu-item:hover {
+        color: #F0F0F0; }
+
 @media all and (max-width: 1200px) {
   header {
     height: 660px; }
 
   .navbar-header ul li {
     margin-right: 16px; }
+
+  #sliding-menu {
+    display: none; }
 
   .implementation-block {
     height: 650px; }
@@ -5981,5 +6032,17 @@ button {
       margin: 6px; }
       .navbar-footer ul li a {
         font-size: 16px; } }
+@media all and (max-width: 800px) {
+  .navbar-header {
+    display: none; }
+
+  #reg-buttons {
+    display: none; }
+
+  .register-box .cart {
+    float: right; }
+
+  #sliding-menu {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+#sliding-menu {
+  .menu {
+    display: block;
+    width : 250px;
+    > div {
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      width: 250px;
+      //height: 100%;
+      &.left {
+        background: #273D7A;
+        left: 250px *-1;
+      }
+      &.visible {
+        &.left {
+          left: 250px;
+        }
+      }
+
+      & > .menu-item {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 10px 15px;
+        border-bottom: solid 1px #555;
+        cursor: pointer;
+        color: #B0B0B0;
+        &:hover {
+          color: #F0F0F0;
+        }
+      }
+    }
+  }
+}
+
