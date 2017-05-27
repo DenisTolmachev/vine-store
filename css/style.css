@@ -8352,12 +8352,16 @@ button {
   opacity: 1.0;
 }
 
-/* line 2, ../sass/layout/partials/_slide-menu.scss */
+/* line 1, ../sass/layout/partials/_slide-menu.scss */
+#sliding-menu {
+  display: none;
+}
+/* line 3, ../sass/layout/partials/_slide-menu.scss */
 #sliding-menu .menu {
   display: block;
   width: 250px;
 }
-/* line 5, ../sass/layout/partials/_slide-menu.scss */
+/* line 6, ../sass/layout/partials/_slide-menu.scss */
 #sliding-menu .menu > div {
   position: absolute;
   z-index: 2;
@@ -8366,7 +8370,7 @@ button {
   ttransition-timing-function: ease;
   transition-duration: 250ms;
 }
-/* line 14, ../sass/layout/partials/_slide-menu.scss */
+/* line 15, ../sass/layout/partials/_slide-menu.scss */
 #sliding-menu .menu > div.left {
   background-color: rgba(255, 255, 255, 0.7);
   /* layer fill content */
@@ -8379,12 +8383,12 @@ button {
   left: -270px;
   top: 44px;
 }
-/* line 23, ../sass/layout/partials/_slide-menu.scss */
+/* line 24, ../sass/layout/partials/_slide-menu.scss */
 #sliding-menu .menu > div.visible.left {
   left: 0;
   top: 44px;
 }
-/* line 29, ../sass/layout/partials/_slide-menu.scss */
+/* line 30, ../sass/layout/partials/_slide-menu.scss */
 #sliding-menu .menu > div > .menu-item {
   float: left;
   width: 100%;
@@ -8395,7 +8399,7 @@ button {
   color: #cb4d0f;
   text-transform: uppercase;
 }
-/* line 38, ../sass/layout/partials/_slide-menu.scss */
+/* line 39, ../sass/layout/partials/_slide-menu.scss */
 #sliding-menu .menu > div > .menu-item:hover {
   color: #4f3715;
 }
@@ -8547,200 +8551,195 @@ footer .copyright {
     margin-right: 16px;
   }
 
-  /* line 12, ../sass/media/_media.scss */
-  #sliding-menu {
-    display: none;
-  }
-
-  /* line 16, ../sass/media/_media.scss */
+  /* line 13, ../sass/media/_media.scss */
   .implementation-block {
     height: 650px;
   }
 
-  /* line 19, ../sass/media/_media.scss */
+  /* line 16, ../sass/media/_media.scss */
   .phone-st {
     padding: 0 74px;
   }
 
-  /* line 22, ../sass/media/_media.scss */
+  /* line 19, ../sass/media/_media.scss */
   .phone-mob {
     padding: 0 74px;
   }
 
-  /* line 25, ../sass/media/_media.scss */
+  /* line 22, ../sass/media/_media.scss */
   .e-mail {
     padding: 0 246px;
   }
-  /* line 27, ../sass/media/_media.scss */
+  /* line 24, ../sass/media/_media.scss */
   .e-mail .mail {
     margin-left: 0;
   }
 
-  /* line 31, ../sass/media/_media.scss */
+  /* line 28, ../sass/media/_media.scss */
   footer {
     background-size: cover;
   }
 }
 @media all and (max-width: 991px) {
-  /* line 37, ../sass/media/_media.scss */
+  /* line 34, ../sass/media/_media.scss */
   header {
     height: 480px;
   }
-  /* line 39, ../sass/media/_media.scss */
+  /* line 36, ../sass/media/_media.scss */
   header .header-circle {
     width: 450px;
     height: 450px;
     margin-top: 10.5%;
     margin-left: -64px;
   }
-  /* line 44, ../sass/media/_media.scss */
+  /* line 41, ../sass/media/_media.scss */
   header .header-circle p {
     font-size: 31px;
     padding: 105px 63px 8px;
     margin-left: 36px;
   }
 
-  /* line 52, ../sass/media/_media.scss */
+  /* line 49, ../sass/media/_media.scss */
   .navbar-header ul {
     margin-left: 0;
   }
-  /* line 54, ../sass/media/_media.scss */
+  /* line 51, ../sass/media/_media.scss */
   .navbar-header ul li {
     margin-right: 5px;
   }
-  /* line 56, ../sass/media/_media.scss */
+  /* line 53, ../sass/media/_media.scss */
   .navbar-header ul li a {
     font-size: 15px;
   }
 
-  /* line 62, ../sass/media/_media.scss */
+  /* line 59, ../sass/media/_media.scss */
   #reg-buttons {
     padding-right: 0px;
   }
-  /* line 64, ../sass/media/_media.scss */
+  /* line 61, ../sass/media/_media.scss */
   #reg-buttons button {
     padding: 5px 20px;
     margin-left: 5px;
   }
 
-  /* line 69, ../sass/media/_media.scss */
+  /* line 66, ../sass/media/_media.scss */
   .work-us-title {
     margin-top: 16px;
   }
-  /* line 71, ../sass/media/_media.scss */
+  /* line 68, ../sass/media/_media.scss */
   .work-us-title p {
     font-size: 26px;
   }
 
-  /* line 75, ../sass/media/_media.scss */
+  /* line 72, ../sass/media/_media.scss */
   .work-us-info {
     padding-top: 16px;
     margin-bottom: 20px;
   }
 
-  /* line 79, ../sass/media/_media.scss */
+  /* line 76, ../sass/media/_media.scss */
   .implementation-block {
     height: 460px;
   }
-  /* line 81, ../sass/media/_media.scss */
+  /* line 78, ../sass/media/_media.scss */
   .implementation-block .implementation-circle {
     margin-right: -90px;
     width: 450px;
     height: 450px;
   }
-  /* line 85, ../sass/media/_media.scss */
+  /* line 82, ../sass/media/_media.scss */
   .implementation-block .implementation-circle p {
     font-size: 16px;
     padding: 97px 101px;
   }
 
-  /* line 91, ../sass/media/_media.scss */
+  /* line 88, ../sass/media/_media.scss */
   .gallery-block-title {
     margin-top: 16px;
   }
-  /* line 93, ../sass/media/_media.scss */
+  /* line 90, ../sass/media/_media.scss */
   .gallery-block-title p {
     font-size: 26px;
   }
 
-  /* line 97, ../sass/media/_media.scss */
+  /* line 94, ../sass/media/_media.scss */
   .grapes {
     margin-bottom: 35px;
     margin-top: 20px;
   }
-  /* line 101, ../sass/media/_media.scss */
+  /* line 98, ../sass/media/_media.scss */
   .grapes .img-wrap .img-title {
     height: 46px;
     bottom: 46px;
   }
 
-  /* line 108, ../sass/media/_media.scss */
+  /* line 105, ../sass/media/_media.scss */
   .show-all-button .show-all {
     margin-bottom: 30px;
     padding: 5px 26px;
     font-size: 18px;
   }
 
-  /* line 114, ../sass/media/_media.scss */
+  /* line 111, ../sass/media/_media.scss */
   footer {
     padding: 5px 20px 5px;
   }
 
-  /* line 121, ../sass/media/_media.scss */
+  /* line 118, ../sass/media/_media.scss */
   .contacts img {
     width: 40px;
   }
-  /* line 124, ../sass/media/_media.scss */
+  /* line 121, ../sass/media/_media.scss */
   .contacts p, .contacts a {
     font-size: 16px;
   }
 
-  /* line 128, ../sass/media/_media.scss */
+  /* line 125, ../sass/media/_media.scss */
   .phone-st {
     padding: 0 58px;
   }
 
-  /* line 131, ../sass/media/_media.scss */
+  /* line 128, ../sass/media/_media.scss */
   .phone-mob {
     padding: 0 58px;
   }
 
-  /* line 134, ../sass/media/_media.scss */
+  /* line 131, ../sass/media/_media.scss */
   .e-mail {
     padding: 0 190px;
   }
 
-  /* line 138, ../sass/media/_media.scss */
+  /* line 135, ../sass/media/_media.scss */
   .navbar-footer ul {
     margin-top: 14px;
     margin-bottom: 10px;
   }
-  /* line 141, ../sass/media/_media.scss */
+  /* line 138, ../sass/media/_media.scss */
   .navbar-footer ul li {
     margin: 6px;
   }
-  /* line 143, ../sass/media/_media.scss */
+  /* line 140, ../sass/media/_media.scss */
   .navbar-footer ul li a {
     font-size: 16px;
   }
 }
 @media all and (max-width: 800px) {
-  /* line 152, ../sass/media/_media.scss */
+  /* line 149, ../sass/media/_media.scss */
   .navbar-header {
     display: none;
   }
 
-  /* line 155, ../sass/media/_media.scss */
+  /* line 152, ../sass/media/_media.scss */
   #reg-buttons {
     display: none;
   }
 
-  /* line 158, ../sass/media/_media.scss */
+  /* line 155, ../sass/media/_media.scss */
   .register-box .cart {
     float: right;
   }
 
-  /* line 161, ../sass/media/_media.scss */
+  /* line 158, ../sass/media/_media.scss */
   #sliding-menu {
     display: block;
   }
