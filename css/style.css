@@ -8008,6 +8008,45 @@ button {
   text-transform: uppercase;
 }
 
+/* line 14, ../sass/layout/partials/_buttons.scss */
+.show-all-button {
+  text-align: center;
+}
+/* line 16, ../sass/layout/partials/_buttons.scss */
+.show-all-button .show-all {
+  margin-bottom: 46px;
+  margin-top: -16px;
+  padding: 7px 39px;
+  color: #fff;
+  font-family: "Open Sans Regular";
+  font-size: 24px;
+  border: solid 1px #fff;
+  -moz-border-radius: 26px;
+  -webkit-border-radius: 26px;
+  border-radius: 26px;
+  /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /* prevents bg color from leaking outside the border */
+  background-color: #cb4d0f;
+  /* layer fill content + color overlay */
+}
+/* line 31, ../sass/layout/partials/_buttons.scss */
+.show-all-button .show-all:hover {
+  color: #cb4d0f;
+  background-color: #fff;
+  /* layer fill content + color overlay */
+  border: solid 1px #cb4d0f;
+  box-sizing: border-box;
+}
+
+/* line 39, ../sass/layout/partials/_buttons.scss */
+.slider-menu-button {
+  padding: 5px 20px;
+  margin-top: 5px;
+}
+
 /* line 1, ../sass/layout/partials/_register-box.scss */
 .register-box {
   width: 100%;
@@ -8177,39 +8216,6 @@ button {
   margin-top: 10px;
 }
 
-/* line 1, ../sass/layout/partials/_show-all-button.scss */
-.show-all-button {
-  text-align: center;
-}
-/* line 3, ../sass/layout/partials/_show-all-button.scss */
-.show-all-button .show-all {
-  margin-bottom: 46px;
-  margin-top: -16px;
-  padding: 7px 39px;
-  color: #fff;
-  font-family: "Open Sans Regular";
-  font-size: 24px;
-  border: solid 1px #fff;
-  -moz-border-radius: 26px;
-  -webkit-border-radius: 26px;
-  border-radius: 26px;
-  /* border radius */
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  /* prevents bg color from leaking outside the border */
-  background-color: #cb4d0f;
-  /* layer fill content + color overlay */
-}
-/* line 18, ../sass/layout/partials/_show-all-button.scss */
-.show-all-button .show-all:hover {
-  color: #cb4d0f;
-  background-color: #fff;
-  /* layer fill content + color overlay */
-  border: solid 1px #cb4d0f;
-  box-sizing: border-box;
-}
-
 /* line 2, ../sass/layout/partials/_footer-text.scss */
 .footer-text p {
   text-align: center;
@@ -8357,17 +8363,28 @@ button {
   z-index: 2;
   top: 0;
   width: 250px;
+  ttransition-timing-function: ease;
+  transition-duration: 250ms;
 }
-/* line 11, ../sass/layout/partials/_slide-menu.scss */
+/* line 14, ../sass/layout/partials/_slide-menu.scss */
 #sliding-menu .menu > div.left {
-  background: #273D7A;
-  left: -250px;
+  background-color: rgba(255, 255, 255, 0.7);
+  /* layer fill content */
+  -moz-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */
+  -webkit-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */
+  box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+  /* drop shadow */
+  left: -270px;
+  top: 44px;
 }
-/* line 16, ../sass/layout/partials/_slide-menu.scss */
+/* line 23, ../sass/layout/partials/_slide-menu.scss */
 #sliding-menu .menu > div.visible.left {
-  left: 250px;
+  left: 0;
+  top: 44px;
 }
-/* line 21, ../sass/layout/partials/_slide-menu.scss */
+/* line 29, ../sass/layout/partials/_slide-menu.scss */
 #sliding-menu .menu > div > .menu-item {
   float: left;
   width: 100%;
@@ -8375,11 +8392,12 @@ button {
   padding: 10px 15px;
   border-bottom: solid 1px #555;
   cursor: pointer;
-  color: #B0B0B0;
+  color: #cb4d0f;
+  text-transform: uppercase;
 }
-/* line 29, ../sass/layout/partials/_slide-menu.scss */
+/* line 38, ../sass/layout/partials/_slide-menu.scss */
 #sliding-menu .menu > div > .menu-item:hover {
-  color: #F0F0F0;
+  color: #4f3715;
 }
 
 /* line 1, ../sass/layout/_nav-field.scss */
@@ -8578,128 +8596,151 @@ footer .copyright {
   /* line 44, ../sass/media/_media.scss */
   header .header-circle p {
     font-size: 31px;
-    padding: 88px 63px 8px;
+    padding: 105px 63px 8px;
     margin-left: 36px;
   }
 
-  /* line 51, ../sass/media/_media.scss */
+  /* line 52, ../sass/media/_media.scss */
+  .navbar-header ul {
+    margin-left: 0;
+  }
+  /* line 54, ../sass/media/_media.scss */
+  .navbar-header ul li {
+    margin-right: 5px;
+  }
+  /* line 56, ../sass/media/_media.scss */
+  .navbar-header ul li a {
+    font-size: 15px;
+  }
+
+  /* line 62, ../sass/media/_media.scss */
+  #reg-buttons {
+    padding-right: 0px;
+  }
+  /* line 64, ../sass/media/_media.scss */
+  #reg-buttons button {
+    padding: 5px 20px;
+    margin-left: 5px;
+  }
+
+  /* line 69, ../sass/media/_media.scss */
   .work-us-title {
     margin-top: 16px;
   }
-  /* line 53, ../sass/media/_media.scss */
+  /* line 71, ../sass/media/_media.scss */
   .work-us-title p {
     font-size: 26px;
   }
 
-  /* line 57, ../sass/media/_media.scss */
+  /* line 75, ../sass/media/_media.scss */
   .work-us-info {
     padding-top: 16px;
     margin-bottom: 20px;
   }
 
-  /* line 61, ../sass/media/_media.scss */
+  /* line 79, ../sass/media/_media.scss */
   .implementation-block {
     height: 460px;
   }
-  /* line 63, ../sass/media/_media.scss */
+  /* line 81, ../sass/media/_media.scss */
   .implementation-block .implementation-circle {
     margin-right: -90px;
     width: 450px;
     height: 450px;
   }
-  /* line 67, ../sass/media/_media.scss */
+  /* line 85, ../sass/media/_media.scss */
   .implementation-block .implementation-circle p {
     font-size: 16px;
     padding: 97px 101px;
   }
 
-  /* line 73, ../sass/media/_media.scss */
+  /* line 91, ../sass/media/_media.scss */
   .gallery-block-title {
     margin-top: 16px;
   }
-  /* line 75, ../sass/media/_media.scss */
+  /* line 93, ../sass/media/_media.scss */
   .gallery-block-title p {
     font-size: 26px;
   }
 
-  /* line 79, ../sass/media/_media.scss */
+  /* line 97, ../sass/media/_media.scss */
   .grapes {
     margin-bottom: 35px;
     margin-top: 20px;
   }
-  /* line 83, ../sass/media/_media.scss */
+  /* line 101, ../sass/media/_media.scss */
   .grapes .img-wrap .img-title {
     height: 46px;
     bottom: 46px;
   }
 
-  /* line 90, ../sass/media/_media.scss */
+  /* line 108, ../sass/media/_media.scss */
   .show-all-button .show-all {
     margin-bottom: 30px;
     padding: 5px 26px;
     font-size: 18px;
   }
 
-  /* line 96, ../sass/media/_media.scss */
+  /* line 114, ../sass/media/_media.scss */
   footer {
     padding: 5px 20px 5px;
   }
 
-  /* line 103, ../sass/media/_media.scss */
+  /* line 121, ../sass/media/_media.scss */
   .contacts img {
     width: 40px;
   }
-  /* line 106, ../sass/media/_media.scss */
+  /* line 124, ../sass/media/_media.scss */
   .contacts p, .contacts a {
     font-size: 16px;
   }
 
-  /* line 110, ../sass/media/_media.scss */
+  /* line 128, ../sass/media/_media.scss */
   .phone-st {
     padding: 0 58px;
   }
 
-  /* line 113, ../sass/media/_media.scss */
+  /* line 131, ../sass/media/_media.scss */
   .phone-mob {
     padding: 0 58px;
   }
 
-  /* line 116, ../sass/media/_media.scss */
+  /* line 134, ../sass/media/_media.scss */
   .e-mail {
     padding: 0 190px;
   }
 
-  /* line 120, ../sass/media/_media.scss */
+  /* line 138, ../sass/media/_media.scss */
   .navbar-footer ul {
     margin-top: 14px;
     margin-bottom: 10px;
   }
-  /* line 123, ../sass/media/_media.scss */
+  /* line 141, ../sass/media/_media.scss */
   .navbar-footer ul li {
     margin: 6px;
   }
-  /* line 125, ../sass/media/_media.scss */
+  /* line 143, ../sass/media/_media.scss */
   .navbar-footer ul li a {
     font-size: 16px;
   }
 }
 @media all and (max-width: 800px) {
-  /* line 134, ../sass/media/_media.scss */
+  /* line 152, ../sass/media/_media.scss */
   .navbar-header {
     display: none;
   }
 
-  /* line 137, ../sass/media/_media.scss */
+  /* line 155, ../sass/media/_media.scss */
   #reg-buttons {
     display: none;
   }
 
-  /* line 140, ../sass/media/_media.scss */
+  /* line 158, ../sass/media/_media.scss */
   .register-box .cart {
     float: right;
   }
 
-  /* line 143, ../sass/media/_media.scss */
+  /* line 161, ../sass/media/_media.scss */
   #sliding-menu {
     display: block;
   }

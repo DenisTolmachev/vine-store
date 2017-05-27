@@ -1,7 +1,3 @@
-/**
- * Created by Регион on 22.05.2017.
- */
-
 
 var App = React.createClass({
     showLeft: function() {
@@ -13,13 +9,13 @@ var App = React.createClass({
             <button className="slider-menu-button" onClick={this.showLeft}>Menu</button>
             
             <Menu ref="left" alignment="left">
-                <MenuItem hash="first-page">First Page</MenuItem>
-                <MenuItem hash="second-page">Second Page</MenuItem>
-                <MenuItem hash="third-page">Third Page</MenuItem>
-                <MenuItem hash="third-page">Third Page</MenuItem>
-                <MenuItem hash="third-page">Third Page</MenuItem>
-                <MenuItem hash="third-page">Third Page</MenuItem>
-                <MenuItem hash="third-page">Third Page</MenuItem>
+                <MenuItem hash="main">главная</MenuItem>
+                <MenuItem hash="catalog">каталог</MenuItem>
+                <MenuItem hash="about-us">о нас</MenuItem>
+                <MenuItem hash="news">новости</MenuItem>
+                <MenuItem hash="contacts">контакты</MenuItem>
+                <MenuItem hash="log-in">вход</MenuItem>
+                <MenuItem hash="register">регистрация</MenuItem>
             </Menu>
             
         </div>;

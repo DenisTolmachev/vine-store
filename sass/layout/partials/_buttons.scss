@@ -11,3 +11,32 @@ button {
   font-family: $OSBolb;
   text-transform: uppercase;
 }
+.show-all-button {
+  text-align: center;
+  .show-all {
+    margin-bottom: 46px;
+    margin-top: -16px;
+    padding: 7px 39px;
+    color: $white;
+    font-family: $OSRegular;
+    font-size: 24px;
+    border: solid 1px #fff;
+    -moz-border-radius: 26px;
+    -webkit-border-radius: 26px;
+    border-radius: 26px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #cb4d0f; /* layer fill content + color overlay */
+    &:hover {
+      color: #cb4d0f;
+      background-color: #fff; /* layer fill content + color overlay */
+      border: solid 1px #cb4d0f;
+      box-sizing: border-box;
+    }
+  }
+}
+.slider-menu-button {
+  padding: 5px 20px;
+  margin-top: 5px;
+}

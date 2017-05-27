@@ -7,17 +7,25 @@
       z-index: 2;
       top: 0;
       width: 250px;
+      ttransition-timing-function: ease;
+      transition-duration: 250ms;
+      //transform ease 250ms
       //height: 100%;
       &.left {
-        background: #273D7A;
-        left: 250px *-1;
+        background-color: rgba(255,255,255,.7); /* layer fill content */
+        -moz-box-shadow: 0 3px 23px 4px rgba(0,0,0,.43); /* drop shadow */
+        -webkit-box-shadow: 0 3px 23px 4px rgba(0,0,0,.43); /* drop shadow */
+        box-shadow: 0 3px 23px 4px rgba(0,0,0,.43); /* drop shadow */
+        left: -270px;
+        top: 44px;
       }
       &.visible {
         &.left {
-          left: 250px;
+          left: 0;
+          top: 44px;
+          //transform: translate3d(250px,0px,0px);
         }
       }
-
       & > .menu-item {
         float: left;
         width: 100%;
@@ -25,9 +33,10 @@
         padding: 10px 15px;
         border-bottom: solid 1px #555;
         cursor: pointer;
-        color: #B0B0B0;
+        color: $orange;
+        text-transform: uppercase;
         &:hover {
-          color: #F0F0F0;
+          color: $orange-dark;
         }
       }
     }

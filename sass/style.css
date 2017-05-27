@@ -5223,6 +5223,37 @@ button {
   font-family: "Open Sans Bold";
   text-transform: uppercase; }
 
+.show-all-button {
+  text-align: center; }
+  .show-all-button .show-all {
+    margin-bottom: 46px;
+    margin-top: -16px;
+    padding: 7px 39px;
+    color: #fff;
+    font-family: "Open Sans Regular";
+    font-size: 24px;
+    border: solid 1px #fff;
+    -moz-border-radius: 26px;
+    -webkit-border-radius: 26px;
+    border-radius: 26px;
+    /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* prevents bg color from leaking outside the border */
+    background-color: #cb4d0f;
+    /* layer fill content + color overlay */ }
+    .show-all-button .show-all:hover {
+      color: #cb4d0f;
+      background-color: #fff;
+      /* layer fill content + color overlay */
+      border: solid 1px #cb4d0f;
+      box-sizing: border-box; }
+
+.slider-menu-button {
+  padding: 5px 20px;
+  margin-top: 5px; }
+
 .register-box {
   width: 100%;
   display: inline-block; }
@@ -5358,33 +5389,6 @@ button {
         text-align: center;
         margin-top: 10px; }
 
-.show-all-button {
-  text-align: center; }
-  .show-all-button .show-all {
-    margin-bottom: 46px;
-    margin-top: -16px;
-    padding: 7px 39px;
-    color: #fff;
-    font-family: "Open Sans Regular";
-    font-size: 24px;
-    border: solid 1px #fff;
-    -moz-border-radius: 26px;
-    -webkit-border-radius: 26px;
-    border-radius: 26px;
-    /* border radius */
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    /* prevents bg color from leaking outside the border */
-    background-color: #cb4d0f;
-    /* layer fill content + color overlay */ }
-    .show-all-button .show-all:hover {
-      color: #cb4d0f;
-      background-color: #fff;
-      /* layer fill content + color overlay */
-      border: solid 1px #cb4d0f;
-      box-sizing: border-box; }
-
 .footer-text p {
   text-align: center;
   color: #fff;
@@ -5494,12 +5498,23 @@ button {
     position: absolute;
     z-index: 2;
     top: 0;
-    width: 250px; }
+    width: 250px;
+    ttransition-timing-function: ease;
+    transition-duration: 250ms; }
     #sliding-menu .menu > div.left {
-      background: #273D7A;
-      left: -250px; }
+      background-color: rgba(255, 255, 255, 0.7);
+      /* layer fill content */
+      -moz-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+      /* drop shadow */
+      -webkit-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+      /* drop shadow */
+      box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+      /* drop shadow */
+      left: -270px;
+      top: 44px; }
     #sliding-menu .menu > div.visible.left {
-      left: 250px; }
+      left: 0;
+      top: 44px; }
     #sliding-menu .menu > div > .menu-item {
       float: left;
       width: 100%;
@@ -5507,9 +5522,10 @@ button {
       padding: 10px 15px;
       border-bottom: solid 1px #555;
       cursor: pointer;
-      color: #B0B0B0; }
+      color: #cb4d0f;
+      text-transform: uppercase; }
       #sliding-menu .menu > div > .menu-item:hover {
-        color: #F0F0F0; }
+        color: #4f3715; }
 
 .nav-field {
   background-color: rgba(255, 255, 255, 0.5); }
@@ -5645,6 +5661,37 @@ button {
   font-family: "Open Sans Bold";
   text-transform: uppercase; }
 
+.show-all-button {
+  text-align: center; }
+  .show-all-button .show-all {
+    margin-bottom: 46px;
+    margin-top: -16px;
+    padding: 7px 39px;
+    color: #fff;
+    font-family: "Open Sans Regular";
+    font-size: 24px;
+    border: solid 1px #fff;
+    -moz-border-radius: 26px;
+    -webkit-border-radius: 26px;
+    border-radius: 26px;
+    /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* prevents bg color from leaking outside the border */
+    background-color: #cb4d0f;
+    /* layer fill content + color overlay */ }
+    .show-all-button .show-all:hover {
+      color: #cb4d0f;
+      background-color: #fff;
+      /* layer fill content + color overlay */
+      border: solid 1px #cb4d0f;
+      box-sizing: border-box; }
+
+.slider-menu-button {
+  padding: 5px 20px;
+  margin-top: 5px; }
+
 .register-box {
   width: 100%;
   display: inline-block; }
@@ -5780,33 +5827,6 @@ button {
         text-align: center;
         margin-top: 10px; }
 
-.show-all-button {
-  text-align: center; }
-  .show-all-button .show-all {
-    margin-bottom: 46px;
-    margin-top: -16px;
-    padding: 7px 39px;
-    color: #fff;
-    font-family: "Open Sans Regular";
-    font-size: 24px;
-    border: solid 1px #fff;
-    -moz-border-radius: 26px;
-    -webkit-border-radius: 26px;
-    border-radius: 26px;
-    /* border radius */
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    /* prevents bg color from leaking outside the border */
-    background-color: #cb4d0f;
-    /* layer fill content + color overlay */ }
-    .show-all-button .show-all:hover {
-      color: #cb4d0f;
-      background-color: #fff;
-      /* layer fill content + color overlay */
-      border: solid 1px #cb4d0f;
-      box-sizing: border-box; }
-
 .footer-text p {
   text-align: center;
   color: #fff;
@@ -5916,12 +5936,23 @@ button {
     position: absolute;
     z-index: 2;
     top: 0;
-    width: 250px; }
+    width: 250px;
+    ttransition-timing-function: ease;
+    transition-duration: 250ms; }
     #sliding-menu .menu > div.left {
-      background: #273D7A;
-      left: -250px; }
+      background-color: rgba(255, 255, 255, 0.7);
+      /* layer fill content */
+      -moz-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+      /* drop shadow */
+      -webkit-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+      /* drop shadow */
+      box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
+      /* drop shadow */
+      left: -270px;
+      top: 44px; }
     #sliding-menu .menu > div.visible.left {
-      left: 250px; }
+      left: 0;
+      top: 44px; }
     #sliding-menu .menu > div > .menu-item {
       float: left;
       width: 100%;
@@ -5929,9 +5960,10 @@ button {
       padding: 10px 15px;
       border-bottom: solid 1px #555;
       cursor: pointer;
-      color: #B0B0B0; }
+      color: #cb4d0f;
+      text-transform: uppercase; }
       #sliding-menu .menu > div > .menu-item:hover {
-        color: #F0F0F0; }
+        color: #4f3715; }
 
 @media all and (max-width: 1200px) {
   header {
@@ -5969,8 +6001,21 @@ button {
       margin-left: -64px; }
       header .header-circle p {
         font-size: 31px;
-        padding: 88px 63px 8px;
+        padding: 105px 63px 8px;
         margin-left: 36px; }
+
+  .navbar-header ul {
+    margin-left: 0; }
+    .navbar-header ul li {
+      margin-right: 5px; }
+      .navbar-header ul li a {
+        font-size: 15px; }
+
+  #reg-buttons {
+    padding-right: 0px; }
+    #reg-buttons button {
+      padding: 5px 20px;
+      margin-left: 5px; }
 
   .work-us-title {
     margin-top: 16px; }

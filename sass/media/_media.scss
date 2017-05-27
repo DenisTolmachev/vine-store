@@ -43,9 +43,27 @@
       margin-left: -64px;
       p {
         font-size: 31px;
-        padding: 88px 63px 8px;
+        padding: 105px 63px 8px;
         margin-left: 36px;
       }
+    }
+  }
+  .navbar-header {
+    ul {
+      margin-left: 0;
+      li {
+        margin-right: 5px;
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  #reg-buttons {
+    padding-right: 0px;
+    button {
+      padding: 5px 20px;
+      margin-left: 5px;
     }
   }
   .work-us-title {
