@@ -9,11 +9,12 @@ var App = React.createClass({
             <button className="slider-menu-button" onClick={this.showLeft}>Menu</button>
             
             <Menu ref="left" alignment="left">
-                <MenuItem hash="main">главная</MenuItem>
-                <MenuItem hash="catalog">каталог</MenuItem>
-                <MenuItem hash="about-us">о нас</MenuItem>
-                <MenuItem hash="news">новости</MenuItem>
-                <MenuItem hash="contacts">контакты</MenuItem>
+                <MenuItem href="../index.html">главная</MenuItem>
+                <MenuItem hash="../pages/catalog.html">каталог</MenuItem>
+                <MenuItem hash="../pages/about-us.html">о нас</MenuItem>
+                <MenuItem href="../pages/news.html">новости</MenuItem>
+                <MenuItem hash="../pages/contacts.html">контакты</MenuItem>
+                <MenuItem hash="../pages/cart.html">корзина</MenuItem>
                 <MenuItem hash="log-in">вход</MenuItem>
                 <MenuItem hash="register">регистрация</MenuItem>
             </Menu>
@@ -47,12 +48,12 @@ var Menu = React.createClass({
 });
 
 var MenuItem = React.createClass({
-    navigate: function(hash) {
-        window.location.hash = hash;
+    navigate: function(href) {
+        window.location.href = href;
     },
 
     render: function() {
-        return <div className="menu-item" onClick={this.navigate.bind(this, this.props.hash)}>{this.props.children}</div>;
+        return <div className="menu-item" onClick={this.navigate.bind(this, this.props.href)}>{this.props.children}</div>;
     }
 });
 

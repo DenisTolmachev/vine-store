@@ -1,0 +1,39 @@
+/* line 1, ../../../sass/layout/partials/news-page.scss */
+.none {
+  display: none !important;
+}
+
+/* line 5, ../../../sass/layout/partials/news-page.scss */
+.article {
+  background: #FFF;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  width: 80%;
+  margin: 0 auto 5px;
+  box-shadow: 2px 2px 5px -1px #0051ca;
+  padding: 3px 5px;
+}
+/* line 12, ../../../sass/layout/partials/news-page.scss */
+.article .news__image {
+  display: inline-block;
+  width: 30%;
+}
+/* line 15, ../../../sass/layout/partials/news-page.scss */
+.article .news__image img {
+  width: 100%;
+}
+/* line 19, ../../../sass/layout/partials/news-page.scss */
+.article .news__post {
+  display: inline-block;
+  width: 70%;
+}
+/* line 22, ../../../sass/layout/partials/news-page.scss */
+.article .news__post .news__author {
+  text-decoration: underline;
+  color: #007DDC;
+}
+
+/* line 29, ../../../sass/layout/partials/news-page.scss */
+.news__count {
+  margin: 10px 0 0 0;
+  display: block;
+}
