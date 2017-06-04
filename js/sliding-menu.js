@@ -9,7 +9,7 @@ var App = React.createClass({
             <button className="slider-menu-button" onClick={this.showLeft}>Menu</button>
             
             <Menu ref="left" alignment="left">
-                <MenuItem href="./index.html">главная</MenuItem>
+                <MenuItem href="/vine-store/">главная</MenuItem>
                 <MenuItem hash="./pages/catalog.html">каталог</MenuItem>
                 <MenuItem hash="./pages/about-us.html">о нас</MenuItem>
                 <MenuItem href="./pages/news.html">новости</MenuItem>
