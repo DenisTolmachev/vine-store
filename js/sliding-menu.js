@@ -9,12 +9,12 @@ var App = React.createClass({
             <button className="slider-menu-button" onClick={this.showLeft}>Menu</button>
             
             <Menu ref="left" alignment="left">
-                <MenuItem href="/index.html">главная</MenuItem>
-                <MenuItem hash="/pages/catalog.html">каталог</MenuItem>
-                <MenuItem hash="/pages/about-us.html">о нас</MenuItem>
-                <MenuItem href="/pages/news.html">новости</MenuItem>
-                <MenuItem hash="/pages/contacts.html">контакты</MenuItem>
-                <MenuItem hash="/pages/cart.html">корзина</MenuItem>
+                <MenuItem href="./index.html">главная</MenuItem>
+                <MenuItem hash="./pages/catalog.html">каталог</MenuItem>
+                <MenuItem hash="./pages/about-us.html">о нас</MenuItem>
+                <MenuItem href="./pages/news.html">новости</MenuItem>
+                <MenuItem hash="./pages/contacts.html">контакты</MenuItem>
+                <MenuItem hash="./pages/cart.html">корзина</MenuItem>
                 <MenuItem hash="log-in">вход</MenuItem>
                 <MenuItem hash="register">регистрация</MenuItem>
             </Menu>
