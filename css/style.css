@@ -8409,36 +8409,50 @@ button {
   display: none !important;
 }
 
-/* line 5, ../sass/layout/partials/news-page.scss */
+/* line 4, ../sass/layout/partials/news-page.scss */
+#header-news {
+  max-height: 214px;
+  background-image: url(../img/news-header-bg.png);
+  overflow: visible;
+}
+/* line 8, ../sass/layout/partials/news-page.scss */
+#header-news p {
+  font-family: "Open Sans Semibold";
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 44px;
+}
+
+/* line 16, ../sass/layout/partials/news-page.scss */
 .article {
   background: #FFF;
-  border: 1px solid rgba(0, 89, 181, 0.82);
-  width: 80%;
-  margin: 0 auto 5px;
-  box-shadow: 2px 2px 5px -1px #0051ca;
-  padding: 3px 5px;
+  border-bottom: 1px solid #4f3715;
+  width: 90%;
+  margin: 0 auto 0px;
+  padding: 15px 5px;
 }
-/* line 12, ../sass/layout/partials/news-page.scss */
+/* line 22, ../sass/layout/partials/news-page.scss */
 .article .news__image {
   display: inline-block;
   width: 30%;
 }
-/* line 15, ../sass/layout/partials/news-page.scss */
+/* line 25, ../sass/layout/partials/news-page.scss */
 .article .news__image img {
   width: 100%;
 }
-/* line 19, ../sass/layout/partials/news-page.scss */
+/* line 29, ../sass/layout/partials/news-page.scss */
 .article .news__post {
   display: inline-block;
   width: 70%;
 }
-/* line 22, ../sass/layout/partials/news-page.scss */
-.article .news__post .news__author {
+/* line 32, ../sass/layout/partials/news-page.scss */
+.article .news__post .news__title {
   text-decoration: underline;
   color: #007DDC;
 }
 
-/* line 29, ../sass/layout/partials/news-page.scss */
+/* line 39, ../sass/layout/partials/news-page.scss */
 .news__count {
   margin: 10px 0 0 0;
   display: block;
@@ -8639,147 +8653,156 @@ footer .copyright {
     margin-left: 36px;
   }
 
-  /* line 49, ../sass/media/_media.scss */
+  /* line 48, ../sass/media/_media.scss */
+  #header-news {
+    max-height: 164px;
+  }
+  /* line 50, ../sass/media/_media.scss */
+  #header-news p {
+    margin-top: 20px;
+  }
+
+  /* line 55, ../sass/media/_media.scss */
   .navbar-header ul {
     margin-left: 0;
   }
-  /* line 51, ../sass/media/_media.scss */
+  /* line 57, ../sass/media/_media.scss */
   .navbar-header ul li {
     margin-right: 5px;
   }
-  /* line 53, ../sass/media/_media.scss */
+  /* line 59, ../sass/media/_media.scss */
   .navbar-header ul li a {
     font-size: 15px;
   }
 
-  /* line 59, ../sass/media/_media.scss */
+  /* line 65, ../sass/media/_media.scss */
   #reg-buttons {
     padding-right: 0px;
   }
-  /* line 61, ../sass/media/_media.scss */
+  /* line 67, ../sass/media/_media.scss */
   #reg-buttons button {
     padding: 5px 20px;
     margin-left: 5px;
   }
 
-  /* line 66, ../sass/media/_media.scss */
+  /* line 72, ../sass/media/_media.scss */
   .work-us-title {
     margin-top: 16px;
   }
-  /* line 68, ../sass/media/_media.scss */
+  /* line 74, ../sass/media/_media.scss */
   .work-us-title p {
     font-size: 26px;
   }
 
-  /* line 72, ../sass/media/_media.scss */
+  /* line 78, ../sass/media/_media.scss */
   .work-us-info {
     padding-top: 16px;
     margin-bottom: 20px;
   }
 
-  /* line 76, ../sass/media/_media.scss */
+  /* line 82, ../sass/media/_media.scss */
   .implementation-block {
     height: 460px;
   }
-  /* line 78, ../sass/media/_media.scss */
+  /* line 84, ../sass/media/_media.scss */
   .implementation-block .implementation-circle {
     margin-right: -90px;
     width: 450px;
     height: 450px;
   }
-  /* line 82, ../sass/media/_media.scss */
+  /* line 88, ../sass/media/_media.scss */
   .implementation-block .implementation-circle p {
     font-size: 16px;
     padding: 97px 101px;
   }
 
-  /* line 88, ../sass/media/_media.scss */
+  /* line 94, ../sass/media/_media.scss */
   .gallery-block-title {
     margin-top: 16px;
   }
-  /* line 90, ../sass/media/_media.scss */
+  /* line 96, ../sass/media/_media.scss */
   .gallery-block-title p {
     font-size: 26px;
   }
 
-  /* line 94, ../sass/media/_media.scss */
+  /* line 100, ../sass/media/_media.scss */
   .grapes {
     margin-bottom: 35px;
     margin-top: 20px;
   }
-  /* line 98, ../sass/media/_media.scss */
+  /* line 104, ../sass/media/_media.scss */
   .grapes .img-wrap .img-title {
     height: 46px;
     bottom: 46px;
   }
 
-  /* line 105, ../sass/media/_media.scss */
+  /* line 111, ../sass/media/_media.scss */
   .show-all-button .show-all {
     margin-bottom: 30px;
     padding: 5px 26px;
     font-size: 18px;
   }
 
-  /* line 111, ../sass/media/_media.scss */
+  /* line 117, ../sass/media/_media.scss */
   footer {
     padding: 5px 20px 5px;
   }
 
-  /* line 118, ../sass/media/_media.scss */
+  /* line 124, ../sass/media/_media.scss */
   .contacts img {
     width: 40px;
   }
-  /* line 121, ../sass/media/_media.scss */
+  /* line 127, ../sass/media/_media.scss */
   .contacts p, .contacts a {
     font-size: 16px;
   }
 
-  /* line 125, ../sass/media/_media.scss */
+  /* line 131, ../sass/media/_media.scss */
   .phone-st {
     padding: 0 58px;
   }
 
-  /* line 128, ../sass/media/_media.scss */
+  /* line 134, ../sass/media/_media.scss */
   .phone-mob {
     padding: 0 58px;
   }
 
-  /* line 131, ../sass/media/_media.scss */
+  /* line 137, ../sass/media/_media.scss */
   .e-mail {
     padding: 0 190px;
   }
 
-  /* line 135, ../sass/media/_media.scss */
+  /* line 141, ../sass/media/_media.scss */
   .navbar-footer ul {
     margin-top: 14px;
     margin-bottom: 10px;
   }
-  /* line 138, ../sass/media/_media.scss */
+  /* line 144, ../sass/media/_media.scss */
   .navbar-footer ul li {
     margin: 6px;
   }
-  /* line 140, ../sass/media/_media.scss */
+  /* line 146, ../sass/media/_media.scss */
   .navbar-footer ul li a {
     font-size: 16px;
   }
 }
 @media all and (max-width: 800px) {
-  /* line 149, ../sass/media/_media.scss */
+  /* line 155, ../sass/media/_media.scss */
   .navbar-header {
     display: none;
   }
 
-  /* line 152, ../sass/media/_media.scss */
+  /* line 158, ../sass/media/_media.scss */
   #reg-buttons {
     display: none;
   }
 
-  /* line 155, ../sass/media/_media.scss */
+  /* line 161, ../sass/media/_media.scss */
   .register-box .cart {
     float: right;
   }
 
-  /* line 158, ../sass/media/_media.scss */
+  /* line 164, ../sass/media/_media.scss */
   #sliding-menu {
     display: block;
   }
