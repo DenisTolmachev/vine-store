@@ -16,4 +16,13 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
   }
+  .page_title {
+    p {
+      font-family: $OSSemibold;
+      font-size: 50px;
+      color: $white;
+      text-align: center;
+      margin-top: 44px;
+    }
+  }
 }

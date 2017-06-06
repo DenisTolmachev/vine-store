@@ -8380,7 +8380,7 @@ button {
   /* drop shadow */
   box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
   /* drop shadow */
-  left: -270px;
+  left: -280px;
   top: 44px;
 }
 /* line 24, ../sass/layout/partials/_slide-menu.scss */
@@ -8415,16 +8415,8 @@ button {
   background-image: url(../img/news-header-bg.png);
   overflow: visible;
 }
-/* line 8, ../sass/layout/partials/news-page.scss */
-#header-news p {
-  font-family: "Open Sans Semibold";
-  font-size: 50px;
-  color: #fff;
-  text-align: center;
-  margin-top: 44px;
-}
 
-/* line 16, ../sass/layout/partials/news-page.scss */
+/* line 10, ../sass/layout/partials/news-page.scss */
 .article {
   background: #FFF;
   border-bottom: 1px solid #4f3715;
@@ -8432,27 +8424,27 @@ button {
   margin: 0 auto 0px;
   padding: 15px 5px;
 }
-/* line 22, ../sass/layout/partials/news-page.scss */
+/* line 16, ../sass/layout/partials/news-page.scss */
 .article .news__image {
   display: inline-block;
   width: 30%;
 }
-/* line 25, ../sass/layout/partials/news-page.scss */
+/* line 19, ../sass/layout/partials/news-page.scss */
 .article .news__image img {
   width: 100%;
 }
-/* line 29, ../sass/layout/partials/news-page.scss */
+/* line 23, ../sass/layout/partials/news-page.scss */
 .article .news__post {
   display: inline-block;
   width: 70%;
 }
-/* line 32, ../sass/layout/partials/news-page.scss */
+/* line 26, ../sass/layout/partials/news-page.scss */
 .article .news__post .news__title {
   text-decoration: underline;
   color: #007DDC;
 }
 
-/* line 39, ../sass/layout/partials/news-page.scss */
+/* line 33, ../sass/layout/partials/news-page.scss */
 .news__count {
   margin: 10px 0 0 0;
   display: block;
@@ -8483,6 +8475,14 @@ header:after {
   background-image: url(../img/figure1.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
+/* line 20, ../sass/layout/_header.scss */
+header .page_title p {
+  font-family: "Open Sans Semibold";
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 44px;
 }
 
 /* line 1, ../sass/layout/_body.scss */

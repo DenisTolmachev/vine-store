@@ -5512,7 +5512,7 @@ button {
         /* drop shadow */
         box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
         /* drop shadow */
-        left: -270px;
+        left: -280px;
         top: 44px; }
       #sliding-menu .menu > div.visible.left {
         left: 0;
@@ -5536,12 +5536,6 @@ button {
   max-height: 214px;
   background-image: url(../img/news-header-bg.png);
   overflow: visible; }
-  #header-news p {
-    font-family: "Open Sans Semibold";
-    font-size: 50px;
-    color: #fff;
-    text-align: center;
-    margin-top: 44px; }
 
 .article {
   background: #FFF;
@@ -5585,6 +5579,12 @@ header {
     background-image: url(../img/figure1.png);
     background-repeat: no-repeat;
     background-size: contain; }
+  header .page_title p {
+    font-family: "Open Sans Semibold";
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 44px; }
 
 body {
   background-image: url("../img/beguzor32.jpg"); }
@@ -5988,7 +5988,7 @@ button {
         /* drop shadow */
         box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.43);
         /* drop shadow */
-        left: -270px;
+        left: -280px;
         top: 44px; }
       #sliding-menu .menu > div.visible.left {
         left: 0;
@@ -6012,12 +6012,6 @@ button {
   max-height: 214px;
   background-image: url(../img/news-header-bg.png);
   overflow: visible; }
-  #header-news p {
-    font-family: "Open Sans Semibold";
-    font-size: 50px;
-    color: #fff;
-    text-align: center;
-    margin-top: 44px; }
 
 .article {
   background: #FFF;
