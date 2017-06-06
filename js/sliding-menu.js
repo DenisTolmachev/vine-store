@@ -10,11 +10,11 @@ var App = React.createClass({
             
             <Menu ref="left" alignment="left">
                 <MenuItem href="/vine-store/">главная</MenuItem>
-                <MenuItem href="./pages/catalog.html">каталог</MenuItem>
-                <MenuItem href="./pages/about-us.html">о нас</MenuItem>
-                <MenuItem href="./pages/news.html">новости</MenuItem>
-                <MenuItem href="./pages/contacts.html">контакты</MenuItem>
-                <MenuItem href="./pages/cart.html">корзина</MenuItem>
+                <MenuItem href="../pages/catalog.html">каталог</MenuItem>
+                <MenuItem href="../pages/about-us.html">о нас</MenuItem>
+                <MenuItem href="../pages/news.html">новости</MenuItem>
+                <MenuItem href="../pages/contacts.html">контакты</MenuItem>
+                <MenuItem href="../pages/cart.html">корзина</MenuItem>
                 <MenuItem hash="log-in">вход</MenuItem>
                 <MenuItem hash="register">регистрация</MenuItem>
             </Menu>
