@@ -8078,9 +8078,9 @@ button {
 
 /* line 1, ../sass/layout/partials/_header-circle.scss */
 .header-circle {
-  width: 650px;
-  height: 650px;
-  margin-top: 18.5%;
+  width: 580px;
+  height: 580px;
+  margin-top: 5%;
   margin-left: -35px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -8414,37 +8414,72 @@ button {
   max-height: 214px;
   background-image: url(../img/news-header-bg.png);
   overflow: visible;
+  background-position-y: 0;
 }
 
-/* line 10, ../sass/layout/partials/news-page.scss */
+/* line 11, ../sass/layout/partials/news-page.scss */
+.news {
+  margin-top: 70px;
+}
+
+/* line 14, ../sass/layout/partials/news-page.scss */
 .article {
   background: #FFF;
   border-bottom: 1px solid #4f3715;
-  width: 90%;
-  margin: 0 auto 0px;
-  padding: 15px 5px;
+  width: 95%;
+  margin: 0 auto 0;
+  padding: 15px 0;
 }
-/* line 16, ../sass/layout/partials/news-page.scss */
+/* line 20, ../sass/layout/partials/news-page.scss */
 .article .news__image {
   display: inline-block;
+  vertical-align: top;
   width: 30%;
 }
-/* line 19, ../sass/layout/partials/news-page.scss */
+/* line 24, ../sass/layout/partials/news-page.scss */
 .article .news__image img {
   width: 100%;
 }
-/* line 23, ../sass/layout/partials/news-page.scss */
+/* line 28, ../sass/layout/partials/news-page.scss */
 .article .news__post {
   display: inline-block;
   width: 70%;
+  padding-top: 10px;
+  padding-left: 20px;
 }
-/* line 26, ../sass/layout/partials/news-page.scss */
+/* line 33, ../sass/layout/partials/news-page.scss */
 .article .news__post .news__title {
-  text-decoration: underline;
-  color: #007DDC;
+  text-decoration: none;
+  color: #4f3715;
+  font-size: 30px;
+  font-family: "Open Sans Bold";
+  text-transform: uppercase;
+}
+/* line 40, ../sass/layout/partials/news-page.scss */
+.article .news__post .news_prev, .article .news__post .news_text {
+  color: #4f3715;
+  /* text color */
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+}
+/* line 45, ../sass/layout/partials/news-page.scss */
+.article .news__post .news_readmore {
+  float: right;
+}
+/* line 48, ../sass/layout/partials/news-page.scss */
+.article .news__post .down {
+  height: 34px;
+  width: 34px;
+  background-image: url(../img/down.png);
+}
+/* line 53, ../sass/layout/partials/news-page.scss */
+.article .news__post .up {
+  height: 34px;
+  width: 34px;
+  background-image: url(../img/up.png);
 }
 
-/* line 33, ../sass/layout/partials/news-page.scss */
+/* line 61, ../sass/layout/partials/news-page.scss */
 .news__count {
   margin: 10px 0 0 0;
   display: block;
@@ -8457,14 +8492,15 @@ button {
 
 /* line 1, ../sass/layout/_header.scss */
 header {
-  height: 770px;
+  height: 590px;
   background-image: url(../img/header-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position-y: -169px;
   position: relative;
   overflow: hidden;
 }
-/* line 8, ../sass/layout/_header.scss */
+/* line 9, ../sass/layout/_header.scss */
 header:after {
   padding-top: 6%;
   bottom: -4px;
@@ -8476,7 +8512,7 @@ header:after {
   background-repeat: no-repeat;
   background-size: contain;
 }
-/* line 20, ../sass/layout/_header.scss */
+/* line 21, ../sass/layout/_header.scss */
 header .page_title p {
   font-family: "Open Sans Semibold";
   font-size: 50px;
@@ -8492,8 +8528,8 @@ body {
 
 /* line 1, ../sass/layout/_work-us-block.scss */
 .work-us-info {
-  padding-top: 46px;
-  margin-bottom: 59px;
+  padding-top: 30px;
+  margin-bottom: 10px;
 }
 /* line 5, ../sass/layout/_work-us-block.scss */
 .work-us-info .consult-block img, .work-us-info .natur-product-block img, .work-us-info .cup-block img, .work-us-info .persent-block img {
@@ -8530,14 +8566,15 @@ body {
 
 /* line 1, ../sass/layout/_implementation-block.scss */
 .implementation-block {
-  height: 732px;
+  height: 670px;
   background-image: url(../img/Drinks_Wine_Bottle.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position-y: -45px;
   position: relative;
   overflow: hidden;
 }
-/* line 8, ../sass/layout/_implementation-block.scss */
+/* line 9, ../sass/layout/_implementation-block.scss */
 .implementation-block:before {
   width: 100%;
   height: 46px;
@@ -8547,7 +8584,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
-/* line 19, ../sass/layout/_implementation-block.scss */
+/* line 20, ../sass/layout/_implementation-block.scss */
 .implementation-block:after {
   padding-top: 6%;
   bottom: -4px;

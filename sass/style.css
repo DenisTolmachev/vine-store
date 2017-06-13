@@ -5274,9 +5274,9 @@ button {
         color: #cb4d0f; }
 
 .header-circle {
-  width: 650px;
-  height: 650px;
-  margin-top: 18.5%;
+  width: 580px;
+  height: 580px;
+  margin-top: 5%;
   margin-left: -35px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -5535,25 +5535,50 @@ button {
 #header-news {
   max-height: 214px;
   background-image: url(../img/news-header-bg.png);
-  overflow: visible; }
+  overflow: visible;
+  background-position-y: 0; }
+
+.news {
+  margin-top: 70px; }
 
 .article {
   background: #FFF;
   border-bottom: 1px solid #4f3715;
-  width: 90%;
-  margin: 0 auto 0px;
-  padding: 15px 5px; }
+  width: 95%;
+  margin: 0 auto 0;
+  padding: 15px 0; }
   .article .news__image {
     display: inline-block;
+    vertical-align: top;
     width: 30%; }
     .article .news__image img {
       width: 100%; }
   .article .news__post {
     display: inline-block;
-    width: 70%; }
+    width: 70%;
+    padding-top: 10px;
+    padding-left: 20px; }
     .article .news__post .news__title {
-      text-decoration: underline;
-      color: #007DDC; }
+      text-decoration: none;
+      color: #4f3715;
+      font-size: 30px;
+      font-family: "Open Sans Bold";
+      text-transform: uppercase; }
+    .article .news__post .news_prev, .article .news__post .news_text {
+      color: #4f3715;
+      /* text color */
+      font-family: "Open Sans Regular";
+      font-size: 14px; }
+    .article .news__post .news_readmore {
+      float: right; }
+    .article .news__post .down {
+      height: 34px;
+      width: 34px;
+      background-image: url(../img/down.png); }
+    .article .news__post .up {
+      height: 34px;
+      width: 34px;
+      background-image: url(../img/up.png); }
 
 .news__count {
   margin: 10px 0 0 0;
@@ -5563,10 +5588,11 @@ button {
   background-color: rgba(255, 255, 255, 0.5); }
 
 header {
-  height: 770px;
+  height: 590px;
   background-image: url(../img/header-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position-y: -169px;
   position: relative;
   overflow: hidden; }
   header:after {
@@ -5590,8 +5616,8 @@ body {
   background-image: url("../img/beguzor32.jpg"); }
 
 .work-us-info {
-  padding-top: 46px;
-  margin-bottom: 59px; }
+  padding-top: 30px;
+  margin-bottom: 10px; }
   .work-us-info .consult-block img, .work-us-info .natur-product-block img, .work-us-info .cup-block img, .work-us-info .persent-block img {
     max-width: 100%;
     display: block;
@@ -5618,10 +5644,11 @@ body {
     line-height: 1.22; }
 
 .implementation-block {
-  height: 732px;
+  height: 670px;
   background-image: url(../img/Drinks_Wine_Bottle.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position-y: -45px;
   position: relative;
   overflow: hidden; }
   .implementation-block:before {
@@ -5750,9 +5777,9 @@ button {
         color: #cb4d0f; }
 
 .header-circle {
-  width: 650px;
-  height: 650px;
-  margin-top: 18.5%;
+  width: 580px;
+  height: 580px;
+  margin-top: 5%;
   margin-left: -35px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -6011,25 +6038,50 @@ button {
 #header-news {
   max-height: 214px;
   background-image: url(../img/news-header-bg.png);
-  overflow: visible; }
+  overflow: visible;
+  background-position-y: 0; }
+
+.news {
+  margin-top: 70px; }
 
 .article {
   background: #FFF;
   border-bottom: 1px solid #4f3715;
-  width: 90%;
-  margin: 0 auto 0px;
-  padding: 15px 5px; }
+  width: 95%;
+  margin: 0 auto 0;
+  padding: 15px 0; }
   .article .news__image {
     display: inline-block;
+    vertical-align: top;
     width: 30%; }
     .article .news__image img {
       width: 100%; }
   .article .news__post {
     display: inline-block;
-    width: 70%; }
+    width: 70%;
+    padding-top: 10px;
+    padding-left: 20px; }
     .article .news__post .news__title {
-      text-decoration: underline;
-      color: #007DDC; }
+      text-decoration: none;
+      color: #4f3715;
+      font-size: 30px;
+      font-family: "Open Sans Bold";
+      text-transform: uppercase; }
+    .article .news__post .news_prev, .article .news__post .news_text {
+      color: #4f3715;
+      /* text color */
+      font-family: "Open Sans Regular";
+      font-size: 14px; }
+    .article .news__post .news_readmore {
+      float: right; }
+    .article .news__post .down {
+      height: 34px;
+      width: 34px;
+      background-image: url(../img/down.png); }
+    .article .news__post .up {
+      height: 34px;
+      width: 34px;
+      background-image: url(../img/up.png); }
 
 .news__count {
   margin: 10px 0 0 0;

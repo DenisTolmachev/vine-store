@@ -1,8 +1,9 @@
 header {
-  height: 770px;
+  height: 590px;
   background-image: url(../img/header-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position-y: -169px;
   position: relative;
   overflow: hidden;
   &:after {

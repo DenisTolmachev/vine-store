@@ -68,9 +68,9 @@ var Article = React.createClass ({
                 <div className="news__post">
                     <p className="news__title">{title}</p>
                     <p className={'news_prev ' + (visible ? 'none': '')}>{prev}</p>
-                    <a href="#" onClick={this.readmoreClick} className={'news_readmore ' + (visible ? 'none': '')}>подробнее</a>
+                    <a href="#" onClick={this.readmoreClick} className={'news_readmore ' + (visible ? 'none ': '') + 'down'}></a>
                     <p className={'news_text ' + (visible ? '': 'none')}>{text}</p>
-                    <a href="#" onClick={this.readminClick} className={'news_readmore ' + (visible ? '': 'none')}>скрыть</a>
+                    <a href="#" onClick={this.readminClick} className={'news_readmore ' + (visible ? '': 'none ') + 'up'}></a>
                 </div>
             </div>
         )

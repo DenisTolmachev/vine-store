@@ -1,8 +1,9 @@
 .implementation-block {
-  height: 732px;
+  height: 670px;
   background-image: url(../img/Drinks_Wine_Bottle.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position-y: -45px;
   position: relative;
   overflow: hidden;
   &:before {
